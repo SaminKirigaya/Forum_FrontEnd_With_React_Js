@@ -1,20 +1,52 @@
 import React, { Component, Fragment } from 'react'
-import {BrowserRouter as Router, Switch, Route, Link, Redirect, useParams, useHistory, useLocation} from "react-router-dom"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 export class Nav extends Component {
+    constructor(props){
+        super(props);
+        
+    }
+    logged = ()=> {
+        if (this.props.email === '' && this.props.logged === false){
+            return <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-auto">
+                        <li className="nav-item mx-sm-auto">
+                            <Link className="nav-link" to="#">Login</Link>
+                        </li>
+
+                        <li className="nav-item mx-sm-auto">
+                            <Link className="nav-link" to="#">Registration</Link>
+                        </li>
+                    </ul>
+        }
+    }
+    notloggedin= ()=>{
+        if (this.props.email === '' && this.props.logged === false){
+            return <Link className="navbar-brand mx-md-5" to="#">
+                        <i className="fa-solid fa-user fa-xl icncol"></i> &nbsp;Log In Please
+                    </Link>
+        }else{
+            //userimage with a profile link
+        }
+    }
+    
     render() {
         return (
             <Fragment>
-                <nav className="navbar navbar-expand-lg navdes">
+                <nav className="navbar navbar-expand-lg sticky-top navdes">
                     <div className="container-fluid">
-                        <Link className="navbar-brand mx-md-5" to="#">Navbar</Link>
+                        {this.notloggedin()}
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse me-auto nav-underline" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                                 <li className="nav-item mx-sm-auto">
-                                    <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+                                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                 </li>
                                 
                                 <li className="nav-item mx-sm-auto dropdown">
@@ -40,15 +72,9 @@ export class Nav extends Component {
 
                                 
                             </form>
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-auto">
-                                    <li className="nav-item mx-sm-auto">
-                                        <Link className="nav-link" to="#">Login</Link>
-                                    </li>
 
-                                    <li className="nav-item mx-sm-auto">
-                                        <Link className="nav-link" to="#">Registration</Link>
-                                    </li>
-                                </ul>
+                            {this.logged()}
+                            
 
                             
                         </div>
