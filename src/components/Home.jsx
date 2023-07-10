@@ -113,6 +113,59 @@ export class Home extends Component {
                             <p className="d-flex justify-content-center p-0">LATEST POSTS</p>
                         </div>
                         <div className="row row-cols-1 tppstbody">
+                            <div className="col postlatest">
+                                <div className="row row-cols-1 row-cols-md-3 rowprprty darkfont">
+                                    <div className="col-md-3 p-0 imglatest"><img className="proclslatest" src={propic}></img></div>
+                                    <div className='col-md-6 postfldlatest'>
+                                        <p>saminarnobyeasar@gmail.com &nbsp;&nbsp;<i class="fa-regular fa-circle-dot"></i> ( Posted At 3:00 AM )</p>
+                                        <p>asassssssssssssssssss</p>
+                                    </div>
+                                    
+                                    <div className="col-md-3 clikpostltst darkfont2"><p>Let's Solve <i class="fa-solid fa-circle-info"></i></p></div>
+                                    
+                                    
+                                    
+                                </div>
+
+                        
+                        
+                            </div>
+
+                            <div className="col postlatest">
+                                <div className="row row-cols-1 row-cols-md-3 rowprprty darkfont">
+                                    <div className="col-md-3 p-0 imglatest"><img className="proclslatest" src={propic}></img></div>
+                                    <div className='col-md-6 postfldlatest'>
+                                        <p>saminarnobyeasar@gmail.com &nbsp;&nbsp;<i class="fa-regular fa-circle-dot"></i> ( Posted At 3:00 AM )</p>
+                                        <p>asassssssssssssssssss</p>
+                                    </div>
+                                    
+                                    <div className="col-md-3 clikpostltst darkfont2"><p>Let's Solve <i class="fa-solid fa-circle-info"></i></p></div>
+                                    
+                                    
+                                    
+                                </div>
+
+                        
+                        
+                            </div>
+
+                            <div className="col postlatest">
+                                <div className="row row-cols-1 row-cols-md-3 rowprprty darkfont">
+                                    <div className="col-md-3 p-0 imglatest"><img className="proclslatest" src={propic}></img></div>
+                                    <div className='col-md-6 postfldlatest'>
+                                        <p>saminarnobyeasar@gmail.com &nbsp;&nbsp;<i class="fa-regular fa-circle-dot"></i> ( Posted At 3:00 AM )</p>
+                                        <p>asassssssssssssssssss</p>
+                                    </div>
+                                    
+                                    <div className="col-md-3 clikpostltst darkfont2"><p>Let's Solve <i class="fa-solid fa-circle-info"></i></p></div>
+                                    
+                                    
+                                    
+                                </div>
+
+                        
+                        
+                            </div>
                         </div>
                         </div>
                     </div>

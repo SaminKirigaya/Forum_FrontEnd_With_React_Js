@@ -1,4 +1,73 @@
 @media (min-width:350px) and (max-width:374px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 23vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 26%;
+        top: -5%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 66vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 41%;
+        top: 53%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 146%;
+        left: -114%;
+        width: 29vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -195,6 +264,75 @@
 }
 
 @media (min-width:375px) and (max-width:389px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 23vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 28%;
+        top: -2%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 67vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 40%;
+        top: 53%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 142%;
+        left: -112%;
+        width: 28vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -391,6 +529,75 @@
 }
 
 @media (min-width:390px) and (max-width:411px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 23vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 28%;
+        top: 3%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 67vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 40%;
+        top: 58%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 152%;
+        left: -109%;
+        width: 27vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -585,6 +792,75 @@
 }
 
 @media (min-width:412px) and (max-width:539px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 23vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 27%;
+        top: 3%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 67vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 38%;
+        top: 58%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 152%;
+        left: -108%;
+        width: 27vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -675,7 +951,7 @@
         border-style: solid;
         border-color: #ffb5b5;
         position: relative;
-        left: 160%;
+        left: 178%;
 
     }
     
@@ -779,6 +1055,75 @@
 }
 
 @media (min-width:540px) and (max-width:767px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 23vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 30%;
+        top: 3%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 70vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 34%;
+        top: 58%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 149%;
+        left: -100%;
+        width: 24vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -953,6 +1298,75 @@
 }
 
 @media (min-width:768px) and (max-width:819px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 26vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 30%;
+        top: 3%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 70vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 33%;
+        top: 64%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 161%;
+        left: -95%;
+        width: 24vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -1126,6 +1540,75 @@
 }
 
 @media (min-width:820px) and (max-width:911px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 26vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 30%;
+        top: 3%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 70vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 32%;
+        top: 64%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 161%;
+        left: -95%;
+        width: 24vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -1312,6 +1795,75 @@
 }
 
 @media (min-width:912px) and (max-width:1023px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 26vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 30%;
+        top: 3%;
+    
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 70vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 31%;
+        top: 64%;
+    }
+    
+    .clikpostltst{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        top: 161%;
+        left: -93%;
+        width: 24vw;
+        background-color: rgb(255, 214, 214) !important;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+        height: 16%;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -1500,11 +2052,91 @@
 }
 
 @media (min-width:1024px) and (max-width:1279px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 5vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 22%;
+        top: -3%;
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 14vw;
+        height: 17vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 50%;
+        top: 54%;
+    }
+    
+    .clikpostltst{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    top: 142%;
+    left: -139%;
+    width: 10vw;
+    background-color: rgb(255, 214, 214) !important;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    height: 16%;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .eachpostrlat{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 22vh !important;
         background-color: #ff3a3a;
         margin-bottom: 1rem !important;
         border-radius: 0.7rem !important;
@@ -1683,6 +2315,73 @@
 }
 
 @media (min-width:1280px) and (max-width:1365px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 5vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 27%;
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+    display: flex !important;
+    line-height: 1rem;
+    justify-content: start !important;
+    align-items: revert;
+    width: 15vw;
+    height: 16vh !important;
+    background-color: rgb(255, 214, 214) !important;
+    margin-left: 0.65rem;
+    margin-top: 1rem;
+    word-break: break-word;
+    border-radius: 0.7rem;
+    font-size: 0.85rem !important;
+    flex-direction: column !important;
+    padding-top: 0.6rem;
+    position: relative;
+    right: 43%;
+    top: 61%;
+    }
+    
+    .clikpostltst{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    top: 151%;
+    left: -121%;
+    width: 8vw;
+    background-color: rgb(255, 214, 214) !important;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    height: 22%;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -1866,6 +2565,74 @@
 }
 
 @media (min-width:1366px) and (max-width:1919px){
+    
+.postlatest{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 35vh;
+    background-color: #ff3a3a;
+    margin-bottom: 1rem !important;
+    border-radius: 0.7rem !important;
+    border-style: solid !important;
+    border-color: #bd9544;
+    border-width: 0.1rem !important;
+}
+.imglatest{
+    width: 5vw;
+    height: 10vh !important;
+    background-color: red !important;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    word-break: break-word;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 29%;
+}
+.proclslatest{
+    width:100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 0.3rem;
+    border-style: solid;
+    border-color: #ffb5b5;
+}
+.postfldlatest{
+display: flex !important;
+line-height: 1rem;
+justify-content: start !important;
+align-items: revert;
+width: 15vw;
+height: 16vh !important;
+background-color: rgb(255, 214, 214) !important;
+margin-left: 0.65rem;
+margin-top: 1rem;
+word-break: break-word;
+border-radius: 0.7rem;
+font-size: 0.85rem !important;
+flex-direction: column !important;
+padding-top: 0.6rem;
+position: relative;
+right: 40%;
+top: 61%;
+}
+
+.clikpostltst{
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+position: relative;
+top: 151%;
+left: -116%;
+width: 8vw;
+background-color: rgb(255, 214, 214) !important;
+margin-top: 1rem;
+margin-left: 0.6rem;
+height: 22%;
+border-radius: 0.3rem;
+font-size: 0.8rem;
+padding-top: 1rem;
+}
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -2049,6 +2816,74 @@
 }
 
 @media (min-width:1920px) and (max-width:2559px){
+    
+.postlatest{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 35vh;
+    background-color: #ff3a3a;
+    margin-bottom: 1rem !important;
+    border-radius: 0.7rem !important;
+    border-style: solid !important;
+    border-color: #bd9544;
+    border-width: 0.1rem !important;
+}
+.imglatest{
+    width: 5vw;
+    height: 10vh !important;
+    background-color: red !important;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    word-break: break-word;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 29%;
+}
+.proclslatest{
+    width:100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 0.3rem;
+    border-style: solid;
+    border-color: #ffb5b5;
+}
+.postfldlatest{
+    display: flex !important;
+    line-height: 1rem;
+    justify-content: start !important;
+    align-items: revert;
+    width: 16vw;
+    height: 16vh !important;
+    background-color: rgb(255, 214, 214) !important;
+    margin-left: 0.65rem;
+    margin-top: 1rem;
+    word-break: break-word;
+    border-radius: 0.7rem;
+    font-size: 0.85rem !important;
+    flex-direction: column !important;
+    padding-top: 0.6rem;
+    position: relative;
+    right: 34%;
+    top: 61%;
+}
+
+.clikpostltst{
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+position: relative;
+top: 156%;
+left: -108%;
+width: 8vw;
+background-color: rgb(255, 214, 214) !important;
+margin-top: 1rem;
+margin-left: 0.6rem;
+height: 22%;
+border-radius: 0.3rem;
+font-size: 0.8rem;
+padding-top: 1rem;
+}
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -2232,6 +3067,73 @@
 }
 
 @media (min-width:2560px) and (max-width:3939px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 5vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 29%;
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 16vw;
+        height: 16vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 29%;
+        top: 61%;
+    }
+    
+    .clikpostltst{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    top: 156%;
+    left: -99%;
+    width: 8vw;
+    background-color: rgb(255, 214, 214) !important;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    height: 22%;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -2414,6 +3316,74 @@
 }
 
 @media (min-width:3840px) and (max-width:8000px){
+    .postlatest{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 35vh;
+        background-color: #ff3a3a;
+        margin-bottom: 1rem !important;
+        border-radius: 0.7rem !important;
+        border-style: solid !important;
+        border-color: #bd9544;
+        border-width: 0.1rem !important;
+    }
+    .imglatest{
+        width: 5vw;
+        height: 10vh !important;
+        background-color: red !important;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.5rem;
+        position: relative;
+        top: 8%;
+        left: 33%;
+    }
+    .proclslatest{
+        width:100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: #ffb5b5;
+    }
+    .postfldlatest{
+        display: flex !important;
+        line-height: 1rem;
+        justify-content: start !important;
+        align-items: revert;
+        width: 16vw;
+        height: 16vh !important;
+        background-color: rgb(255, 214, 214) !important;
+        margin-left: 0.65rem;
+        margin-top: 1rem;
+        word-break: break-word;
+        border-radius: 0.7rem;
+        font-size: 0.85rem !important;
+        flex-direction: column !important;
+        padding-top: 0.6rem;
+        position: relative;
+        right: 24%;
+        top: 73%;
+    }
+    
+    .clikpostltst{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    top: 173%;
+    left: -89%;
+    width: 8vw;
+    background-color: rgb(255, 214, 214) !important;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    height: 22%;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    }
     .eachpostr{
         display: flex !important;
         flex-direction: column !important;
@@ -2795,7 +3765,7 @@ a:hover{
     width:100% !important;
     height: 90% !important;
     
-    background-color: #e97445;
+    background-color: #ffffff;
     overflow: scroll !important;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -2837,3 +3807,4 @@ a:hover{
 .fontsty{
     font-family: 'Cinzel', serif;
 }
+
