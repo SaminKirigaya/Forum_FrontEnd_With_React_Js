@@ -34,7 +34,7 @@ export class Header extends Component {
                     <Nav email={this.state.email} logged={this.state.logged_in} />
 
                     <Switch>
-                        <Route path="/" component={()=><Home />} />
+                        <Route path="/" component={()=><Home usrmail={this.state.email} usrlogged={this.state.logged_in} />} />
                         
                         
                         

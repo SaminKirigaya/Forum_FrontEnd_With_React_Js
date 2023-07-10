@@ -4,6 +4,12 @@ import './index.css';
 import Header from './common/Header';
 import reportWebVitals from './reportWebVitals';
 import './assests/design.css';
+import axios from 'axios';
+import Cookies from 'js-cookie';
+
+axios.defaults.baseURL = 'http://localhost:8000/api';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
