@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -10,6 +11,7 @@ export class Nav extends Component {
     constructor(props){
         super(props);
         
+        
     }
     logged = ()=> {
         if (this.props.email === '' && this.props.logged === false){
@@ -19,7 +21,7 @@ export class Nav extends Component {
                         </li>
 
                         <li className="nav-item mx-sm-auto">
-                            <Link className="nav-link" to="#">Registration</Link>
+                            <Link className="nav-link" to='/regt'>Registration</Link>
                         </li>
                     </ul>
         }
@@ -36,6 +38,7 @@ export class Nav extends Component {
     
     render() {
         return (
+            
             <Fragment>
                 <nav className="navbar navbar-expand-lg sticky-top navdes">
                     <div className="container-fluid">
@@ -80,7 +83,10 @@ export class Nav extends Component {
                         </div>
                     </div>
                 </nav>
+                
             </Fragment>
+            
+            
         )
     }
 }

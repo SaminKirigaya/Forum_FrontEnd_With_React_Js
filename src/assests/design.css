@@ -1,4 +1,14 @@
 @media (min-width:350px) and (max-width:374px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: -1.35rem !important;
+        padding-left: 0%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -264,6 +274,16 @@
 }
 
 @media (min-width:375px) and (max-width:389px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: -0.95rem !important;
+        padding-left: 0%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -529,6 +549,16 @@
 }
 
 @media (min-width:390px) and (max-width:411px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: -0.45rem !important;
+        padding-left: 0%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -792,6 +822,16 @@
 }
 
 @media (min-width:412px) and (max-width:539px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 0%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -1055,6 +1095,16 @@
 }
 
 @media (min-width:540px) and (max-width:767px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 13%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -1298,6 +1348,16 @@
 }
 
 @media (min-width:768px) and (max-width:819px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 25%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -1540,6 +1600,16 @@
 }
 
 @media (min-width:820px) and (max-width:911px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 27%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -1795,6 +1865,16 @@
 }
 
 @media (min-width:912px) and (max-width:1023px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 28%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -2052,6 +2132,16 @@
 }
 
 @media (min-width:1024px) and (max-width:1279px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 29%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -2315,6 +2405,16 @@
 }
 
 @media (min-width:1280px) and (max-width:1365px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 33%;
+        padding-top: 1rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -2565,6 +2665,16 @@
 }
 
 @media (min-width:1366px) and (max-width:1919px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 20rem;
+        padding-top: 1rem;
+    }
     
 .postlatest{
     display: flex !important;
@@ -2816,6 +2926,16 @@ padding-top: 1rem;
 }
 
 @media (min-width:1920px) and (max-width:2559px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 33rem;
+        padding-top: 2rem;
+    }
     
 .postlatest{
     display: flex !important;
@@ -3067,6 +3187,16 @@ padding-top: 1rem;
 }
 
 @media (min-width:2560px) and (max-width:3939px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 50rem;
+        padding-top: 2rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -3316,6 +3446,16 @@ padding-top: 1rem;
 }
 
 @media (min-width:3840px) and (max-width:8000px){
+    .pagn{
+        display: flex !important;
+        justify-content: center !important;
+        width:100% !important;
+        height: 9% !important;
+        background-color: #ffffff;
+        margin-left: 0 !important;
+        padding-left: 44%;
+        padding-top: 2rem;
+    }
     .postlatest{
         display: flex !important;
         flex-direction: column !important;
@@ -3738,14 +3878,16 @@ a:hover{
 .randpost::-webkit-scrollbar {
     display: none;
   }
-.pagn{
-    display: flex !important;
-    justify-content: center !important;
-    width:100% !important;
-    height: 9% !important;
-    background-color: #7e2400;
-    margin-left: 0 !important;
 
+.page-link{
+    background-color: #ff3a3a !important;
+    color: white !important;
+}
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    
+    
+    border-color: rgb(255, 214, 214) !important;
 }
 
 .tppst{
@@ -3808,3 +3950,11 @@ a:hover{
     font-family: 'Cinzel', serif;
 }
 
+.regform{
+    display: flex !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: rgb(255, 255, 255) !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
