@@ -1,4 +1,11 @@
 @media (min-width:350px) and (max-width:374px){
+    .proimgtp{
+        display: inline-block !important;
+        width:46% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -60,6 +67,7 @@
         position: relative;
         right: 41%;
         top: 53%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -274,6 +282,13 @@
 }
 
 @media (min-width:375px) and (max-width:389px){
+    .proimgtp{
+        display: inline-block !important;
+        width:40% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -335,6 +350,7 @@
         position: relative;
         right: 40%;
         top: 53%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -549,6 +565,13 @@
 }
 
 @media (min-width:390px) and (max-width:411px){
+    .proimgtp{
+        display: inline-block !important;
+        width:52% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -610,6 +633,7 @@
         position: relative;
         right: 40%;
         top: 58%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -822,6 +846,13 @@
 }
 
 @media (min-width:412px) and (max-width:539px){
+    .proimgtp{
+        display: inline-block !important;
+        width:48% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -883,6 +914,7 @@
         position: relative;
         right: 38%;
         top: 58%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -1095,6 +1127,13 @@
 }
 
 @media (min-width:540px) and (max-width:767px){
+    .proimgtp{
+        display: inline-block !important;
+        width:35% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -1156,6 +1195,7 @@
         position: relative;
         right: 34%;
         top: 58%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -1348,6 +1388,13 @@
 }
 
 @media (min-width:768px) and (max-width:819px){
+    .proimgtp{
+        display: inline-block !important;
+        width:31% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -1409,6 +1456,7 @@
         position: relative;
         right: 33%;
         top: 64%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -1600,6 +1648,13 @@
 }
 
 @media (min-width:820px) and (max-width:911px){
+    .proimgtp{
+        display: inline-block !important;
+        width:32% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -1661,6 +1716,7 @@
         position: relative;
         right: 32%;
         top: 64%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -1865,6 +1921,19 @@
 }
 
 @media (min-width:912px) and (max-width:1023px){
+    .proimgtp{
+        display: inline-block !important;
+        width:30% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
+    .proimgtp{
+        display: inline-block !important;
+        width:13% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -1926,6 +1995,7 @@
         position: relative;
         right: 31%;
         top: 64%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -2132,6 +2202,21 @@
 }
 
 @media (min-width:1024px) and (max-width:1279px){
+    .proimgtp{
+        display: inline-block !important;
+        width:16% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
+    
+.layerproimg{
+    width: 20% !important;
+    margin-left: 0rem !important;
+}
+
+    
+    
+
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -2192,6 +2277,7 @@
         position: relative;
         right: 50%;
         top: 54%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -2405,6 +2491,12 @@
 }
 
 @media (min-width:1280px) and (max-width:1365px){
+    .proimgtp{
+        display: inline-block !important;
+        width:13% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -2464,6 +2556,7 @@
     position: relative;
     right: 43%;
     top: 61%;
+    overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -2665,6 +2758,12 @@
 }
 
 @media (min-width:1366px) and (max-width:1919px){
+    .proimgtp{
+        display: inline-block !important;
+        width:13% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -2725,6 +2824,7 @@ padding-top: 0.6rem;
 position: relative;
 right: 40%;
 top: 61%;
+overflow: hidden !important;
 }
 
 .clikpostltst{
@@ -2926,6 +3026,12 @@ padding-top: 1rem;
 }
 
 @media (min-width:1920px) and (max-width:2559px){
+    .proimgtp{
+        display: inline-block !important;
+        width:13% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -2986,6 +3092,7 @@ padding-top: 1rem;
     position: relative;
     right: 34%;
     top: 61%;
+    overflow: hidden !important;
 }
 
 .clikpostltst{
@@ -3187,6 +3294,12 @@ padding-top: 1rem;
 }
 
 @media (min-width:2560px) and (max-width:3939px){
+    .proimgtp{
+        display: inline-block !important;
+        width:13% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -3246,6 +3359,7 @@ padding-top: 1rem;
         position: relative;
         right: 29%;
         top: 61%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -3446,6 +3560,12 @@ padding-top: 1rem;
 }
 
 @media (min-width:3840px) and (max-width:8000px){
+    .proimgtp{
+        display: inline-block !important;
+        width:13% !important;
+        height:10% !important;
+        border-radius: 50% !important;
+    }
     .pagn{
         display: flex !important;
         justify-content: center !important;
@@ -3506,6 +3626,7 @@ padding-top: 1rem;
         position: relative;
         right: 24%;
         top: 73%;
+        overflow: hidden !important;
     }
     
     .clikpostltst{
@@ -3957,4 +4078,21 @@ a:hover{
     background-color: rgb(255, 255, 255) !important;
     justify-content: center !important;
     align-items: center !important;
+}
+
+.rulebox{
+    background-color: #ff3a3a !important;
+    color: aliceblue !important;
+    border-radius: 0.4rem !important;
+    font-family: 'Cinzel', serif;
+}
+
+.btnsubdes{
+    background-color: #ff3a3a !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+}
+
+.layerproimg{
+    width: 20% !important;
 }

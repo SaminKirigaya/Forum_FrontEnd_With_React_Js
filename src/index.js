@@ -7,8 +7,11 @@ import './assests/design.css';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-axios.defaults.baseURL = 'http://localhost:8000/api';
-
+axios.defaults.baseURL = 'http://192.168.0.109:8000/api';
+const tokens = Cookies.get('token');
+if(tokens){
+  axios.defaults.headers.common['Authorization'] = `Bearer ${tokens}`;
+}
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

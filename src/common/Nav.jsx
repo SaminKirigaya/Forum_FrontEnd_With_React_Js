@@ -17,22 +17,33 @@ export class Nav extends Component {
         if (this.props.email === '' && this.props.logged === false){
             return <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-auto">
                         <li className="nav-item mx-sm-auto">
-                            <Link className="nav-link" to="#">Login</Link>
+                            <Link className="nav-link" to="/logs">Login</Link>
                         </li>
 
                         <li className="nav-item mx-sm-auto">
                             <Link className="nav-link" to='/regt'>Registration</Link>
                         </li>
                     </ul>
+        }else{
+            return <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-auto">
+                        <li className="nav-item mx-sm-auto">
+                            <Link className="nav-link" to="#">LogOut</Link>
+                        </li>
+
+                        
+                    </ul>
         }
     }
     notloggedin= ()=>{
         if (this.props.email === '' && this.props.logged === false){
-            return <Link className="navbar-brand mx-md-5" to="#">
+            return <Link className="navbar-brand mx-md-5" to="/logs">
                         <i className="fa-solid fa-user fa-xl icncol"></i> &nbsp;Log In Please
                     </Link>
         }else{
             //userimage with a profile link
+            return <Link className="navbar-brand mx-md-5 layerproimg" to="#">
+                        <img className="proimgtp" src={this.props.imglink}></img> &nbsp;{this.props.email}
+                    </Link>
         }
     }
     
