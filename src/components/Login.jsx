@@ -22,13 +22,14 @@ export class Login extends Component {
     respdatafunc= ()=>{
         if(this.state.resdata){
             if(this.state.resdata.message == "Login Successful"){
-                const expirationDate = new Date();
-                expirationDate.setTime(expirationDate.getTime() + 10 * 60 * 1000);
-                Cookies.set('token',this.state.resdata.token);
-                Cookies.set('email',this.state.resdata.useremail);
-                Cookies.set('image',this.state.resdata.image);
-                Cookies.set('serial',this.state.resdata.usersl);
-                Cookies.set('logged','true');
+                
+                
+                localStorage.setItem('token',this.state.resdata.token)
+                localStorage.setItem('email',this.state.resdata.useremail)
+                localStorage.setItem('image',this.state.resdata.image)
+                localStorage.setItem('serial',this.state.resdata.usersl)
+                localStorage.setItem('logged',true)
+
 
                 setTimeout(()=>{window.location.reload()},500)
                 return <Redirect to=""></Redirect>
@@ -46,6 +47,11 @@ export class Login extends Component {
                     
                 </div> 
             }else if(this.state.resdata.message == 'Sorry Email Do Not Exist ... Make Sure To Insert Valid User Email.'){
+                return <div>
+                    <li><p>{this.state.resdata.message}</p></li>
+                    
+                </div> 
+            }else if(this.state.resdata.message == 'Validation failed'){
                 return <div>
                     <li><p>{this.state.resdata.message}</p></li>
                     
@@ -95,7 +101,7 @@ export class Login extends Component {
                 
                     <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
 
-                        <form method="POST" onSubmit={this.formsubmited} encType='multipart/form-data'>
+                        <form method="POST" onSubmit={e=>{this.formsubmited(e)}} encType='multipart/form-data'>
                             <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
                                 <div className="col col-md-10 p-3 mb-5 rulebox d-flex justify-content-center flex-column">
                                     {this.respdatafunc()}

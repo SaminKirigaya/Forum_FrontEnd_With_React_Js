@@ -137,7 +137,7 @@ export class Regs extends Component {
                 
                     <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
 
-                        <form method="POST" onSubmit={this.formsubmited} encType='multipart/form-data'>
+                        <form method="POST" onSubmit={e=>{this.formsubmited(e)}} encType='multipart/form-data'>
                             <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
                                 <div className="col col-md-10 p-3 mb-5 rulebox d-flex justify-content-center flex-column">
                                     {this.respdatafunc()}

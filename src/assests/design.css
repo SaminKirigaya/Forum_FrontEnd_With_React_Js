@@ -1,4 +1,40 @@
 @media (min-width:350px) and (max-width:374px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 89.9vw !important;
+        left: 1.9vw !important;
+        width: 15vw !important;
+        font-size: 0.9rem;
+        height: 7.8vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+        
+        }
+    .compage{   
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 81vw !important;
+        left: 2vw !important;
+        width: 35vw !important;
+        font-size: 0.9rem;
+        height: 8vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+    }
+    
+.profposttopmarg{
+    margin-top : 0 !important;
+} 
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:46% !important;
@@ -282,6 +318,42 @@
 }
 
 @media (min-width:375px) and (max-width:389px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 140.9vw !important;
+        left: 59.9vw !important;
+        width: 15vw !important;
+        font-size: 0.9rem;
+        height: 5.8vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+        
+        }
+    .compage{   
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 140vw !important;
+        left: 23vw !important;
+        width: 34vw !important;
+        font-size: 0.9rem;
+        height: 7vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+    }
+    
+.profposttopmarg{
+    margin-top : 0 !important;
+}
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:40% !important;
@@ -565,6 +637,42 @@
 }
 
 @media (min-width:390px) and (max-width:411px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 150.9vw !important;
+        left: 59.9vw !important;
+        width: 15vw !important;
+        font-size: 0.9rem;
+        height: 5.8vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+        
+        }
+    .compage{   
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 151vw !important;
+        left: 24vw !important;
+        width: 34vw !important;
+        font-size: 0.9rem;
+        height: 6vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+    }
+    
+.profposttopmarg{
+    margin-top : 0 !important;
+}
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:52% !important;
@@ -707,7 +815,7 @@
         position: relative;
         width: 3vw;
         top: 29vh;
-        right: 76.5vw;
+        right: 78.5vw;
         margin-top: 1rem;
         margin-left: 0.8rem;
         height: 31%;
@@ -721,9 +829,9 @@
         align-items: center !important;
         position: relative;
         top: 163%;
-        left: -102%;
+        left: -106%;
     
-        width: 26vw;
+        width: 27vw;
         background-color: rgb(255, 214, 214) !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
@@ -752,7 +860,7 @@
         align-items: center !important;
         position: relative;
         top: 162%;
-        left: -106%;
+        left: -109%;
         width: 26vw;
         
         margin-top: 1rem;
@@ -770,7 +878,7 @@
         align-items: center !important;
         position: relative;
         top: 178%;
-        left: -191%;
+        left: -207%;
         width: 25vw;
         margin-top: 1rem;
         margin-left: 0.6rem;
@@ -846,6 +954,42 @@
 }
 
 @media (min-width:412px) and (max-width:539px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 91.6vw !important;
+        left: 74.9vw !important;
+        width: 15vw !important;
+        font-size: 0.9rem;
+        height: 5.1vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+        
+        }
+ .compage{   
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute !important;
+    top: 85vw !important;
+    left: 67vw !important;
+    width: 31vw !important;
+    font-size: 0.9rem;
+    height: 6vw !important;
+    background-color: #ff3a3a !important;
+    color: white !important;
+    border-radius: 0.3rem !important;
+}
+    
+.profposttopmarg{
+    margin-top : 0 !important;
+}
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:48% !important;
@@ -1127,6 +1271,43 @@
 }
 
 @media (min-width:540px) and (max-width:767px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 59.6vw !important;
+        left: 80.9vw !important;
+        width: 10vw !important;
+        font-size: 0.9rem;
+        height: 4.1vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+        
+        }
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 54vw !important;
+        left: 74vw !important;
+        width: 24vw !important;
+        font-size: 0.9rem;
+        height: 5vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    
+    }
+    
+.profposttopmarg{
+    margin-top : 0 !important;
+}
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:35% !important;
@@ -1388,6 +1569,42 @@
 }
 
 @media (min-width:768px) and (max-width:819px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 54.6vw !important;
+        left: 84.6vw !important;
+        width: 8vw !important;
+        font-size: 0.9rem;
+        height: 3.8vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+        
+        }
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 50vw !important;
+        left: 79vw !important;
+        width: 18vw !important;
+        height: 4vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    
+    }
+    
+.profposttopmarg{
+    margin-top : 0 !important;
+}
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:31% !important;
@@ -1648,6 +1865,41 @@
 }
 
 @media (min-width:820px) and (max-width:911px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 57.6vw !important;
+        left: 86.6vw !important;
+        width: 6vw !important;
+        font-size: 0.9rem;
+        height: 2.8vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+        }
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 53vw !important;
+        left: 81vw !important;
+        width: 17vw !important;
+        height: 4vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    
+    }
+    
+.profposttopmarg{
+    margin-top : 0 !important;
+}
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:32% !important;
@@ -1921,6 +2173,41 @@
 }
 
 @media (min-width:912px) and (max-width:1023px){
+    .postingpg{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute !important;
+    top: 57.6vw !important;
+    left: 85.6vw !important;
+    width: 6vw !important;
+    font-size: 0.9rem;
+    height: 2.8vw !important;
+    background-color: #ff3a3a !important;
+    color: white !important;
+    border-radius: 0.3rem !important;
+    }
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 54vw !important;
+        left: 81vw !important;
+        width: 15vw !important;
+        height: 3vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    
+    }
+    
+    .profposttopmarg{
+        margin-top : 0 !important;
+    }
+    .propostmarg{
+        margin-left: 8vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:30% !important;
@@ -2202,6 +2489,37 @@
 }
 
 @media (min-width:1024px) and (max-width:1279px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 28.6vw !important;
+        left: 88.2vw !important;
+        width: 6vw !important;
+        font-size: 0.9rem;
+        height: 2.8vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+    }
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 25vw !important;
+        left: 84vw !important;
+        width: 14vw !important;
+        height: 3vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    }
+    
+    .propostmarg{
+        margin-left: 13vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:16% !important;
@@ -2491,6 +2809,36 @@
 }
 
 @media (min-width:1280px) and (max-width:1365px){
+        
+.postingpg{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute !important;
+    top: 24.6vw !important;
+    left: 88.56vw !important;
+    width: 6vw !important;
+    font-size: 0.9rem;
+    height: 2vw !important;
+    background-color: #ff3a3a !important;
+    color: white !important;
+    border-radius: 0.3rem !important;
+}
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        position: absolute !important;
+        top: 22vw !important;
+        left: 86vw !important;
+        width: 11vw !important;
+        height: 2vw !important;
+        background-color: #ff3a3a !important;
+        color : white !important;
+        border-radius: 0.4rem !important;
+    }
+    .propostmarg{
+        margin-left: 13vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:13% !important;
@@ -2758,6 +3106,36 @@
 }
 
 @media (min-width:1366px) and (max-width:1919px){
+    
+.postingpg{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute !important;
+    top: 23vw !important;
+    left: 90vw !important;
+    width: 6vw !important;
+    font-size: 0.9rem;
+    height: 2vw !important;
+    background-color: #ff3a3a !important;
+    color: white !important;
+    border-radius: 0.3rem !important;
+}
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        position: absolute !important;
+        top: 20vw !important;
+        left: 88vw !important;
+        width: 10vw !important;
+        height: 2vw !important;
+        background-color: #ff3a3a !important;
+        color : white !important;
+        border-radius: 0.4rem !important;
+    }
+    .propostmarg{
+        margin-left: 13vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:13% !important;
@@ -3026,6 +3404,38 @@ padding-top: 1rem;
 }
 
 @media (min-width:1920px) and (max-width:2559px){
+    
+.postingpg{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute !important;
+    top: 23vw !important;
+    left: 91vw !important;
+    width: 6vw !important;
+    font-size: 0.9rem;
+    height: 2vw !important;
+    background-color: #ff3a3a !important;
+    color: white !important;
+    border-radius: 0.3rem !important;
+}
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        position: absolute !important;
+        top: 20vw !important;
+        left: 89vw !important;
+        width: 10vw !important;
+        align-items: center;
+        height: 2vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    
+    }
+    .propostmarg{
+        margin-left: 13vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:13% !important;
@@ -3294,6 +3704,37 @@ padding-top: 1rem;
 }
 
 @media (min-width:2560px) and (max-width:3939px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 23vw !important;
+        left: 91vw !important;
+        width: 6vw !important;
+        font-size: 0.9rem;
+        height: 2vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+    }
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        position: absolute !important;
+        top: 20vw !important;
+        left: 89vw !important;
+        width: 10vw !important;
+        align-items: center;
+        height: 2vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    
+    }
+    .propostmarg{
+        margin-left: 13vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:13% !important;
@@ -3560,6 +4001,37 @@ padding-top: 1rem;
 }
 
 @media (min-width:3840px) and (max-width:8000px){
+    .postingpg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        position: absolute !important;
+        top: 22.5vw !important;
+        left: 91.3vw !important;
+        width: 6vw !important;
+        font-size: 0.9rem;
+        height: 2vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.3rem !important;
+    }
+    .compage{
+        display: flex !important;
+        justify-content: center !important;
+        position: absolute !important;
+        top: 20vw !important;
+        left: 89vw !important;
+        width: 10vw !important;
+        align-items: center;
+        height: 2vw !important;
+        background-color: #ff3a3a !important;
+        color: white !important;
+        border-radius: 0.4rem !important;
+    
+    }
+    .propostmarg{
+        margin-left: 13vw !important;
+    }
     .proimgtp{
         display: inline-block !important;
         width:13% !important;
@@ -4095,4 +4567,108 @@ a:hover{
 
 .layerproimg{
     width: 20% !important;
+}
+
+.proful{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    
+    width: 100vw !important;
+    min-height: 100vh !important;
+    background-color: white !important;
+}
+
+.profimage{
+    max-width: 100% !important;
+    max-height: 10vw !important;
+    
+    border-radius: 0.3rem !important;
+    box-shadow: 0px 0px 30px 0px rgb(243, 143, 143) !important;
+}
+.imgboxt{
+    width: 100vw !important;
+    height : 10vw !important;
+}
+.profinfbox{
+    width: 50vw !important;
+    height: 35vh !important;
+}
+.brkwrd{
+    word-break: break-all !important;
+}
+.bordofprof{
+    border-style: solid !important;
+    border-color: #ff3a3a !important;
+    color: #ff3a3a !important;
+    padding-top: 3vw !important;
+}
+
+.probtn{
+    background-color: #ff3a3a !important;
+    border: none !important;
+}
+
+.bordvanish{
+    border: none !important;
+}
+
+.linkdec{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.postfl{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: #ffffff !important;
+}
+.postfld{
+    width : 70% !important;
+    height : 20% !important;
+    resize: none !important;
+    border-color: #ff3a3a !important;
+    border-style: solid !important;
+    box-shadow: 0px 20px 40px 0px rgb(248, 158, 158);
+    border-radius: 0.3rem !important;
+    color : #ff3a3a !important;
+}
+
+.postfld2{
+    width : 70% !important;
+    height : 7% !important;
+    resize: none !important;
+    border-color: #e77070 !important;
+    border-radius: 0.3rem !important;
+    border-style: solid !important;
+    box-shadow: 0px 0px 40px 0px rgb(248, 158, 158);
+    color : #ff3a3a !important;
+}
+.postfld3{
+    width : 70% !important;
+    height : 7% !important;
+    resize: none !important;
+    border-color: #ff3a3a !important;
+    border-radius: 0.3rem !important;
+    border-style: solid !important;
+    box-shadow: 0px 0px 40px 0px rgb(248, 158, 158);
+    color : #ff3a3a !important;
+}
+.btncol{
+    background-color: #ff3a3a !important;
+    border-color: #ff3a3a !important;
+    color: white !important;
+}
+
+#txtara{
+    color : #ff3a3a !important;
+    border-radius: 0.3rem !important;
+}
+
+.redtxt{
+    color : #ff3a3a !important;
+
 }

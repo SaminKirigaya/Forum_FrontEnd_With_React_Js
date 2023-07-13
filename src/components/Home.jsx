@@ -47,14 +47,14 @@ export class Home extends Component {
                                     <i className="fa-solid fa-flag icncol"></i>Report
                                 </div>
                                 ) : (
-                                <div onClick="reportapi" className="col-md-3 colhreprlikcom whitefont" >
+                                <div className="col-md-3 colhreprlikcom whitefont" >
                                     <i className="fa-solid fa-flag icncol"></i>Report
                                 </div>
                                 )}
                                 {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 colclikpost darkfont2" ><p>Log In <i className="fa-solid fa-circle-info"></i></p></div>
                                 ) : (
-                                <div onClick="seepost in otherpage" className="col-md-3 colclikpost darkfont2" ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></div>
+                                <div className="col-md-3 colclikpost darkfont2" ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></div>
                                 )}
                                 {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 viewpost"><p className="whitefont" ><i className="fa-solid fa-eye icncol"></i> Total View : {rpost.viewed>100000 ? Math.floor(rpost.viewed/100000) +'M': rpost.viewed>1000 ? Math.floor(rpost.viewed/1000) +'K' : rpost.viewed}</p></div>
@@ -64,12 +64,12 @@ export class Home extends Component {
                                 {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 viewpost2"><p className="whitefont" ><i className="fa-solid fa-thumbs-up icncol pt-3 pb-3"></i> {rpost.like_amount>100000 ? Math.floor(rpost.like_amount/100000) +'M': rpost.like_amount>1000 ? Math.floor(rpost.like_amount/1000) +'K' : rpost.like_amount}</p></div>
                                 ) : (
-                                <div onClick="lik post func" className="col-md-3 viewpost2" ><p className="whitefont"><i className="fa-solid fa-thumbs-up icncol pt-3 pb-3"></i> {rpost.like_amount>100000 ? Math.floor(rpost.like_amount/100000) +'M': rpost.like_amount>1000 ? Math.floor(rpost.like_amount/1000) +'K' : rpost.like_amount}</p></div>
+                                <div className="col-md-3 viewpost2" ><p className="whitefont"><i className="fa-solid fa-thumbs-up icncol pt-3 pb-3"></i> {rpost.like_amount>100000 ? Math.floor(rpost.like_amount/100000) +'M': rpost.like_amount>1000 ? Math.floor(rpost.like_amount/1000) +'K' : rpost.like_amount}</p></div>
                                 )}
                                 {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 viewpost3"><p className="whitefont" ><i className="fa-solid fa-thumbs-down icncol"></i> {rpost.dislike_amount>100000 ? Math.floor(rpost.dislike_amount/100000) +'M': rpost.dislike_amount>1000 ? Math.floor(rpost.dislike_amount/1000) +'K' : rpost.dislike_amount}</p></div>
                                 ) : (
-                                <div onClick="unlike funct" className="col-md-3 viewpost3" ><p className="whitefont"><i className="fa-solid fa-thumbs-down icncol"></i> {rpost.dislike_amount>100000 ? Math.floor(rpost.dislike_amount/100000) +'M': rpost.dislike_amount>1000 ? Math.floor(rpost.dislike_amount/1000) +'K' : rpost.dislike_amount}</p></div>
+                                <div className="col-md-3 viewpost3" ><p className="whitefont"><i className="fa-solid fa-thumbs-down icncol"></i> {rpost.dislike_amount>100000 ? Math.floor(rpost.dislike_amount/100000) +'M': rpost.dislike_amount>1000 ? Math.floor(rpost.dislike_amount/1000) +'K' : rpost.dislike_amount}</p></div>
                                 )}
                             
                             
@@ -98,7 +98,7 @@ export class Home extends Component {
                             {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 clikpostltst darkfont2" ><p>Log In <i className="fa-solid fa-circle-info"></i></p></div>
                                 ) : (
-                                <div onClick="solve paeg func" className="col-md-3 clikpostltst darkfont2" ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></div>
+                                <div className="col-md-3 clikpostltst darkfont2" ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></div>
                                 )}
                             
                             
@@ -130,7 +130,7 @@ export class Home extends Component {
             });
             this.setState({ latposts: response2.data.toppost });
             this.setState({ randposts: response.data.randomposts });
-            console.log(this.state.latposts);
+            
             } catch (error) {
             console.log(error);
             }

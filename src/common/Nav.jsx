@@ -27,7 +27,7 @@ export class Nav extends Component {
         }else{
             return <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-auto">
                         <li className="nav-item mx-sm-auto">
-                            <Link className="nav-link" to="#">LogOut</Link>
+                            <Link className="nav-link" to="/logot">LogOut</Link>
                         </li>
 
                         
@@ -41,7 +41,7 @@ export class Nav extends Component {
                     </Link>
         }else{
             //userimage with a profile link
-            return <Link className="navbar-brand mx-md-5 layerproimg" to="#">
+            return <Link className="navbar-brand mx-md-5 layerproimg" to="/profile">
                         <img className="proimgtp" src={this.props.imglink}></img> &nbsp;{this.props.email}
                     </Link>
         }

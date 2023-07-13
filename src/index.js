@@ -8,10 +8,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 axios.defaults.baseURL = 'http://192.168.0.109:8000/api';
-const tokens = Cookies.get('token');
-if(tokens){
-  axios.defaults.headers.common['Authorization'] = `Bearer ${tokens}`;
-}
+axios.defaults.headers.common['Authorization'] = 'Bearer '+localStorage.getItem('token');
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
