@@ -4,6 +4,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
+    useParams,
     Link
   } from "react-router-dom";
 import axios from 'axios'  
@@ -23,6 +24,8 @@ export class Home extends Component {
             postsPerPage: 10
         }
     }
+
+
     handlePageChange = (pageNumber) => {
         this.setState({ currentPage: pageNumber });
         };
@@ -37,7 +40,7 @@ export class Home extends Component {
                 return(
                     <div className="col eachpostr" key={rpost.slno}>
                         <div className="row row-cols-1 row-cols-md-3 rowprprty darkfont" >
-                            <div className="col-md-3 p-0 colhimg" ><img className="procls" src={propic}></img></div>
+                            <div className="col-md-3 p-0 colhimg" ><img className="procls" src={rpost.author_image}></img></div>
                             <div className='col-md-6 colhpost' >
                                 <p>{rpost.author_email} &nbsp;&nbsp;<i className="fa-regular fa-circle-dot"></i> ( Posted At {rpost.creating_time} )<br></br><b>{rpost.intro}</b><br></br>{rpost.user_post.slice(0, 70)} &nbsp;...(See More)</p>
                                 <p></p>
@@ -54,7 +57,7 @@ export class Home extends Component {
                                 {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 colclikpost darkfont2" ><p>Log In <i className="fa-solid fa-circle-info"></i></p></div>
                                 ) : (
-                                <div className="col-md-3 colclikpost darkfont2" ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></div>
+                                <div className="col-md-3 colclikpost darkfont2" ><Link className='linkdec' to={'/seepost/'+rpost.slno} ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></Link></div>
                                 )}
                                 {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 viewpost"><p className="whitefont" ><i className="fa-solid fa-eye icncol"></i> Total View : {rpost.viewed>100000 ? Math.floor(rpost.viewed/100000) +'M': rpost.viewed>1000 ? Math.floor(rpost.viewed/1000) +'K' : rpost.viewed}</p></div>
@@ -90,7 +93,7 @@ export class Home extends Component {
                 return(
                     <div className="col postlatest" key={tpost.slno}>
                         <div className="row row-cols-1 row-cols-md-3 rowprprty darkfont" >
-                            <div className="col-md-3 p-0 imglatest" ><img className="proclslatest" src={propic}></img></div>
+                            <div className="col-md-3 p-0 imglatest" ><img className="proclslatest" src={tpost.image}></img></div>
                             <div className='col-md-6 postfldlatest'>
                                 <p>{tpost.author_email} &nbsp;&nbsp;<i className="fa-regular fa-circle-dot"></i> ( Posted At {tpost.creating_time} )<br></br><b>{tpost.intro}</b><br></br>{tpost.user_post.slice(0, 70)} &nbsp;...(See More)</p>
                                 
@@ -98,7 +101,7 @@ export class Home extends Component {
                             {this.props.usrmail === '' && this.props.usrlogged === false ? (
                                 <div className="col-md-3 clikpostltst darkfont2" ><p>Log In <i className="fa-solid fa-circle-info"></i></p></div>
                                 ) : (
-                                <div className="col-md-3 clikpostltst darkfont2" ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></div>
+                                <div className="col-md-3 clikpostltst darkfont2" ><Link className='linkdec' to={'/seepost/'+tpost.slno} ><p>Let's Solve <i className="fa-solid fa-circle-info"></i></p></Link></div>
                                 )}
                             
                             
@@ -130,6 +133,7 @@ export class Home extends Component {
             });
             this.setState({ latposts: response2.data.toppost });
             this.setState({ randposts: response.data.randomposts });
+            
             
             } catch (error) {
             console.log(error);

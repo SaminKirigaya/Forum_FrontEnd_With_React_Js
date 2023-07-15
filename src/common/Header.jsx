@@ -12,13 +12,22 @@ import Cookies from 'js-cookie';
 import Profile from '../components/Profile';
 import ProfComment from '../components/ProfComment';
 import Post from '../components/Post';
+import EditProfile from '../components/EditProfile';
+import DeletePage from '../components/DeletePage';
+import ForgetPass from '../components/ForgetPass';
+import TotallyForgot from '../components/TotallyForgot';
+import PostSee from '../components/PostSee';
+import MyPostSee from '../components/MyPostSee';
 
 import {
     BrowserRouter as Router,
+    withRouter,
+    useParams,
     Switch,
     Route,
     Link
   } from "react-router-dom";
+
 
 
 export class Header extends Component {
@@ -28,17 +37,18 @@ export class Header extends Component {
             email : '',
             sl_no : '',
             logged_in : false,
-            post_no : null ,
+            post_no : '' ,
             comment_no : null,
             img_link : ''
         }
 
     }
+    
     async componentDidMount(){
         if(localStorage.getItem('serial')){
             
 
-            axios.get(`/amilogged/${localStorage.getItem('email')}`,{
+            axios.get(`/amilogged/${localStorage.getItem('token')}`,{
                 headers : {
                     'Content-Type' : 'application/json'
                 }
@@ -80,7 +90,13 @@ export class Header extends Component {
                         <Route exact path="/profile" component={()=><Profile sln={this.state.sl_no} />} />   
                         <Route exact path="/profilecomment" component={()=><ProfComment />} />  
                         <Route exact path="/post" component={()=><Post sln={this.state.sl_no} />} />  
-                        
+                        <Route exact path="/editprofile" component={()=><EditProfile sln={this.state.sl_no} />} />
+                        <Route exact path="/deleteid" component={()=><DeletePage />} />   
+                        <Route exact path="/changepass" component={()=><ForgetPass sln={this.state.sl_no} />} />  
+                        <Route exact path="/forgottotally" component={()=><TotallyForgot />} />  
+                        <Route exact path="/seepost/:postno" render={(props) => (<PostSee sln={this.state.sl_no} postno={props.match.params.postno} {...props} />)} />  
+                        <Route exact path="/mypostsee/:postno" render={(props)=>(<MyPostSee sln={this.state.sl_no} postno={props.match.params.postno} {...props} />)}/>
+
                     </Switch>
 
                     <Footer></Footer>

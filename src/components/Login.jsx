@@ -103,14 +103,15 @@ export class Login extends Component {
 
                         <form method="POST" onSubmit={e=>{this.formsubmited(e)}} encType='multipart/form-data'>
                             <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
-                                <div className="col col-md-10 p-3 mb-5 rulebox d-flex justify-content-center flex-column">
+                                <div className="col col-md-10 p-3 mb-5 rulebox d-flex justify-content-center flex-row">
                                     {this.respdatafunc()}
                                 </div>
                                 <div className='col col-md-10 mb-2'><input onChange={(e)=>{this.setState({email : e.target.value})}} className="form-control form-control-sm" type="text" placeholder="Email@" aria-label=".form-control-sm example" /></div>
                                 <div className='col col-md-10 mb-2'><input onChange={(e)=>{this.setState({pass : e.target.value})}} className="form-control form-control-sm" type="text" placeholder="Password" aria-label=".form-control-sm example" /></div>
 
 
-                                <div className="col-3 d-flex justify-content-center"><button type="submit" className="btn btn-sm btn-outline-primary btnsubdes">Login</button></div>
+                                <div className="col-3 d-flex justify-content-center mb-2"><button type="submit" className="btn btn-sm btn-outline-primary btnsubdes">Login</button></div>
+                                <div className='col col-md-10 mb-2 d-flex justify-content-center'>Forgot Password ? Please &nbsp; <Link to="/forgottotally">Click Here</Link></div>
                             </div>
                         </form>
                         

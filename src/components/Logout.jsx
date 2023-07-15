@@ -114,7 +114,7 @@ export class Logout extends Component {
 
                         
                             <div className='row row-cols-1 d-flex justify-content-center m-0 p-0'>
-                                <div className="col-12 p-3 mb-2 rulebox d-flex justify-content-center flex-column">
+                                <div className="col-12 p-3 mb-2 rulebox d-flex justify-content-center flex-row">
                                     {this.logouttext()}    
                                 </div>
                                 

@@ -8,9 +8,9 @@ export class ProfComment extends Component {
             <Fragment>
             <div className="container-fluid proful p-0 d-flex justify-content-center">
             <div className="bordofprof">
-                <div className="imgboxt d-flex justify-content-center mb-3 mb-md-0">
-                    <div className="row row-cols-1 row-cols-md-2 d-flex justify-content-center">
-                        <div className="col"><img className="profimage" src={homebg}></img></div>
+                <div className="imgboxt d-flex justify-content-center somedisp mb-3 mb-md-0">
+                    <div className="row row-cols-1 row-cols-md-2 d-flex justify-content-center mb-md-3">
+                        <div className="col d-flex justify-content-center"><img className="profimage" src={homebg}></img></div>
                     </div>
                 </div>
                 <div className="container-fluid profinfbox">

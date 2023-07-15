@@ -42,7 +42,7 @@ export class Nav extends Component {
         }else{
             //userimage with a profile link
             return <Link className="navbar-brand mx-md-5 layerproimg" to="/profile">
-                        <img className="proimgtp" src={this.props.imglink}></img> &nbsp;{this.props.email}
+                        <img className="proimgtp" src={this.props.imglink}></img> &nbsp;<span className='navgmail'>{this.props.email}</span>
                     </Link>
         }
     }
@@ -76,7 +76,7 @@ export class Nav extends Component {
                                 </li>
 
                                 <li className="nav-item mx-sm-auto">
-                                    <Link className="nav-link" to="#">Privacy Policy</Link>
+                                    <Link className="nav-link" to="#">Rules & Privacy</Link>
                                 </li>
                             
                             </ul>
