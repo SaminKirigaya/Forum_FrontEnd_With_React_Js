@@ -1,10 +1,258 @@
 @media (min-width:350px) and (max-width:374px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+        
+    }
+    .quote{
+        position: absolute;
+        top: 59%;
+        color:white ;
+        font-size: 1.5rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        padding: 1rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 170vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 170vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 21vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+        
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 51vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    background-color: #c8fff7;
+    color: #8200ff;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 4rem !important;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 35vh !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 5rem;
+    }
+    
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 80vw !important;
+        height: 16vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 80vw !important;
+        height: 15vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 80vw !important;
+        height: 16vw !important;
+    }
     
   .likepad{
     padding-top: 0.45rem ;
   }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 17vw !important;
         height: 16vw !important ;
         border-radius: 0.4rem !important;
@@ -16,14 +264,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 89.9vw !important;
+        top: 27.9vw !important;
         left: 1.9vw !important;
         width: 15vw !important;
         font-size: 0.9rem;
         height: 7.8vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
         
         }
     .compage{   
@@ -31,14 +280,17 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 81vw !important;
+        top: 19vw !important;
         left: 2vw !important;
         width: 35vw !important;
-        font-size: 0.9rem;
+        font-size: 0.75rem;
         height: 8vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
+       
+        
     }
     
 .profposttopmarg{
@@ -69,17 +321,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 23vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -95,7 +347,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
@@ -104,18 +356,19 @@
         align-items: revert;
         width: 66vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.65rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 41%;
         top: 53%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -126,7 +379,7 @@
         top: 146%;
         left: -114%;
         width: 29vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -139,11 +392,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 40vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -170,14 +423,15 @@
         right: 21%;
         width: 65vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.4rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.6rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -206,7 +460,7 @@
         left: -111%;
     
         width: 29vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -223,7 +477,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
         position: relative;
         left: 175%;
         top:-7%
@@ -302,12 +556,12 @@
         flex-direction: column;
         padding: 1.5rem !important;
         
-        height: 71vh !important;
+        height: 80vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -324,18 +578,267 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:375px) and (max-width:389px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+       
+    }
+    
+    .quote{
+        position: absolute;
+        top: 59%;
+        color:white ;
+        font-size: 1.5rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        padding: 1rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 146vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 145vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 19vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+       
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+    
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 51vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 4.5rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 5rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 35vh !important;
+    }
+    
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 80vw !important;
+        height: 16vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 80vw !important;
+        height: 15vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 80vw !important;
+        height: 16vw !important;
+    }
     
   .likepad{
     padding-top: 0.45rem ;
   }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 15vw !important;
         height: 15vw !important ;
         border-radius: 0.4rem !important;
@@ -346,14 +849,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 79.4vw !important;
+        top: 27.4vw !important;
         left: 2vw !important;
         width: 15vw !important;
         font-size: 0.9rem;
         height: 5.8vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
         
         }
     .compage{   
@@ -361,14 +865,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 72vw !important;
+        top: 19vw !important;
         left: 2vw !important;
         width: 34vw !important;
-        font-size: 0.9rem;
+        font-size: 0.76rem;
         height: 7vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
 .profposttopmarg{
@@ -399,17 +904,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 23vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -425,7 +930,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
@@ -434,18 +939,19 @@
         align-items: revert;
         width: 67vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.65rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 40%;
         top: 53%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -456,7 +962,7 @@
         top: 142%;
         left: -112%;
         width: 28vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -469,11 +975,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 40vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -500,14 +1006,15 @@
         right: 21%;
         width: 65vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.4rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.6rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -536,7 +1043,7 @@
         left: -107%;
     
         width: 28vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -553,7 +1060,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
         position: relative;
         left: 175%;
         top:-7%
@@ -632,12 +1139,12 @@
         flex-direction: column;
         padding: 1.5rem !important;
         
-        height: 71vh !important;
+        height: 79vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -654,18 +1161,266 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:390px) and (max-width:411px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+        
+    }
+    
+    .quote{
+        position: absolute;
+        top: 60%;
+        color:white ;
+        font-size: 1.5rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        padding: 1.2rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 181vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 180vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 19vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+       
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+     
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 51vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    background-color: #c8fff7;
+    color: #8200ff;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 4rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 6rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 35vh !important;
+    }
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 85vw !important;
+        height: 18vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 85vw !important;
+        height: 15vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 85vw !important;
+        height: 18vw !important;
+    }
     
   .likepad{
     padding-top: 0.6rem ;
   }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 16vw !important;
         height: 16vw !important ;
         border-radius: 0.4rem !important;
@@ -681,14 +1436,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 167vw !important;
+        top: 116vw !important;
         left: 59.9vw !important;
         width: 15vw !important;
         font-size: 0.9rem;
         height: 5.8vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
         
         }
     .compage{   
@@ -696,14 +1452,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 167vw !important;
+        top: 116vw !important;
         left: 24vw !important;
         width: 34vw !important;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         height: 6vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
 .profposttopmarg{
@@ -734,17 +1491,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 23vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -760,7 +1517,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
@@ -769,18 +1526,19 @@
         align-items: revert;
         width: 67vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.68rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 40%;
         top: 58%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -791,7 +1549,7 @@
         top: 152%;
         left: -109%;
         width: 27vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -804,11 +1562,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 40vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -835,14 +1593,15 @@
         right: 19%;
         width: 65vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.4rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.65rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -871,7 +1630,7 @@
         left: -106%;
     
         width: 27vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -887,7 +1646,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
         position: relative;
         left: 175%;
 
@@ -965,12 +1724,12 @@
         flex-direction: column;
         padding: 1.5rem !important;
         
-        height: 71vh !important;
+        height: 79vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -987,17 +1746,266 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:412px) and (max-width:539px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+       
+    }
+    .quote{
+        position: absolute;
+        top: 35%;
+        color:white ;
+        font-size: 1.5rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        padding: 1.2rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 187vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 186vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 19vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+      
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color:  #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 47vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 4.8rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 6rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 29vh !important;
+    }
+    
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 85vw !important;
+        height: 18vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 85vw !important;
+        height: 14vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 85vw !important;
+        height: 18vw !important;
+    }
+    
     .likepad{
         padding-top: 0.8rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 15vw !important;
         height: 15vw !important ;
         border-radius: 0.4rem !important;
@@ -1013,14 +2021,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 91.6vw !important;
+        top: 24.6vw !important;
         left: 74.9vw !important;
         width: 15vw !important;
         font-size: 0.9rem;
         height: 5.1vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
         
         }
  .compage{   
@@ -1028,14 +2037,15 @@
     justify-content: center !important;
     align-items: center;
     position: absolute !important;
-    top: 85vw !important;
+    top: 17vw !important;
     left: 67vw !important;
     width: 31vw !important;
-    font-size: 0.9rem;
+    font-size: 0.74rem;
     height: 6vw !important;
-    background-color: #ff3a3a !important;
+    background-color: #8200ff !important;
     color: white !important;
     border-radius: 0.3rem !important;
+    font-family: 'Lugrasimo', cursive;
 }
     
 .profposttopmarg{
@@ -1066,17 +2076,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 23vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -1092,7 +2102,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
@@ -1101,18 +2111,19 @@
         align-items: revert;
         width: 67vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.72rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 38%;
         top: 58%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -1123,7 +2134,7 @@
         top: 152%;
         left: -108%;
         width: 27vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -1136,11 +2147,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 40vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -1167,14 +2178,15 @@
         right: 19%;
         width: 65vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.4rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.67rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -1203,7 +2215,7 @@
         left: -102%;
     
         width: 25vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -1219,7 +2231,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
         position: relative;
         left: 178%;
 
@@ -1297,12 +2309,12 @@
         flex-direction: column;
         padding: 1.5rem !important;
         
-        height: 71vh !important;
+        height: 81vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -1319,17 +2331,265 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:540px) and (max-width:767px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+        
+    }
+    .quote{
+        position: absolute;
+        top: 35%;
+        color:white ;
+        font-size: 1.4rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 110vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 109vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 19vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+     
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 58vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 4.6rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 10rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 32vh !important;
+    }
+    
+    
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 85vw !important;
+        height: 18vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 12vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 85vw !important;
+        height: 18vw !important;
+    }
+    
     .likepad{
         padding-top: 0.5rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 11vw !important;
         height: 11vw !important ;
         border-radius: 0.4rem !important;
@@ -1345,14 +2605,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 59.6vw !important;
+        top: 18.6vw !important;
         left: 80.9vw !important;
         width: 10vw !important;
         font-size: 0.9rem;
         height: 4.1vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
         
         }
     .compage{
@@ -1360,14 +2621,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 54vw !important;
+        top: 13vw !important;
         left: 74vw !important;
         width: 24vw !important;
-        font-size: 0.9rem;
+        font-size: 0.77rem;
         height: 5vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     
     }
     
@@ -1399,17 +2661,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 23vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -1425,7 +2687,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
@@ -1434,18 +2696,19 @@
         align-items: revert;
         width: 70vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.72rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 34%;
         top: 58%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -1456,7 +2719,7 @@
         top: 149%;
         left: -100%;
         width: 24vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -1469,11 +2732,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -1483,7 +2746,7 @@
     .colhimg{
         width: 12vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 0.8rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -1497,14 +2760,15 @@
         align-items: revert;
         width: 57vw;
         height: 15vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.4rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.69rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -1532,7 +2796,7 @@
         top: 91%;
         left: -90%;
         width: 19vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -1548,7 +2812,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -1610,12 +2874,12 @@
         flex-direction: column;
         padding: 1.5rem !important;
         
-        height: 71vh !important;
+        height: 79vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -1632,17 +2896,267 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:768px) and (max-width:819px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+        
+    }
+    .quote{
+        position: absolute;
+        top: 35%;
+        color:white ;
+        font-size: 2.2rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 113vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 111vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 9vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+       
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+        
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 32vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 6.3rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 5rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 19vh !important;
+    }
+    
+    .remvic{
+        display : none !important;
+    }
+.editdes{
+    border: solid #8200ff;
+    width: 48% !important;
+    height: 48% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
     .likepad{
         padding-top: 0.9rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 11vw !important;
         height: 11vw !important ;
         border-radius: 0.4rem !important;
@@ -1652,14 +3166,15 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 54.6vw !important;
+        top: 15.6vw !important;
         left: 84.6vw !important;
         width: 8vw !important;
         font-size: 0.9rem;
         height: 3.8vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
         
         }
     .compage{
@@ -1667,13 +3182,14 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 50vw !important;
-        left: 79vw !important;
-        width: 18vw !important;
+        top: 11vw !important;
+        left: 77vw !important;
+        width: 21vw !important;
         height: 4vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     
     }
     
@@ -1705,17 +3221,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 26vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -1731,27 +3247,28 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.5rem;
         justify-content: start !important;
         align-items: revert;
         width: 70vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.9rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 33%;
         top: 64%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -1762,7 +3279,7 @@
         top: 161%;
         left: -95%;
         width: 24vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -1775,11 +3292,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+     
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -1789,7 +3306,7 @@
     .colhimg{
         width: 12vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 0.6rem;
         margin-top: 3rem;
         word-break: break-word;
@@ -1798,19 +3315,20 @@
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.5rem;
         justify-content: start !important;
         align-items: revert;
         width: 57vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.4rem;
         margin-top: 2rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.9rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -1836,7 +3354,7 @@
         top: 96%;
         left: -80%;
         width: 14vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -1852,7 +3370,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -1915,12 +3433,12 @@
         justify-content: center !important;
         padding: 1.5rem !important;
         
-        height: 71vh !important;
+        height: 80vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -1937,17 +3455,256 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:820px) and (max-width:911px){
+    .quote{
+        position: absolute;
+        top: 35%;
+        color:white ;
+        font-size: 2.8rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        font-family: 'Lugrasimo', cursive;
+    } 
+    .forgtpass2{
+        width: 60vw !important;
+    height : 123vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 120vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass{
+        width: 60vw !important;
+        height : 9vw !important;
+        background-color: white !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+     
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color:  #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+        
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 32vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 6.9rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 5rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 17vh !important;
+    }
+    
+    .remvic{
+        display : none !important;
+    }
+
+.editdes{
+    border: solid #8200ff;
+    width: 75% !important;
+    height: 43% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
     .likepad{
         padding-top: 1.2rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 11vw !important;
         height: 11vw !important ;
         border-radius: 0.4rem !important;
@@ -1957,27 +3714,29 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 57.6vw !important;
+        top: 15.6vw !important;
         left: 86.6vw !important;
         width: 6vw !important;
         font-size: 0.9rem;
-        height: 2.8vw !important;
-        background-color: #ff3a3a !important;
+        height: 3.8vw !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
         }
     .compage{
         display: flex !important;
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 53vw !important;
-        left: 81vw !important;
-        width: 17vw !important;
+        top: 11vw !important;
+        left: 78vw !important;
+        width: 20vw !important;
         height: 4vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     
     }
     
@@ -2009,17 +3768,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+    
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 26vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -2035,27 +3794,28 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.6rem;
         justify-content: start !important;
         align-items: revert;
         width: 70vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.95rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 32%;
         top: 64%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -2066,7 +3826,7 @@
         top: 161%;
         left: -95%;
         width: 24vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -2079,11 +3839,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -2093,7 +3853,7 @@
     .colhimg{
         width: 12vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 0.8rem;
         margin-top: 3rem;
         word-break: break-word;
@@ -2102,19 +3862,20 @@
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.5rem;
         justify-content: start !important;
         align-items: revert;
         width: 57vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.5rem;
         margin-top: 2rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.9rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -2140,7 +3901,7 @@
         top: 96%;
         left: -80%;
         width: 13vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -2156,7 +3917,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -2220,8 +3981,8 @@
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .homefirst {
         margin-top: 50vh;
@@ -2232,12 +3993,12 @@
         flex-direction: column;
         padding: 1.5rem !important;
         
-        height: 71vh !important;
+        height: 81vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -2254,17 +4015,277 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+       
+    }
 }
 
 @media (min-width:912px) and (max-width:1023px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 203vh !important;
+        right: 0vw !important;
+        width : 100vw !important;
+        height: 6vh !important;
+   
+    }
+    .quote{
+        position: absolute;
+        top: 35%;
+        color:white ;
+        font-size: 2.8rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 129vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 127vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 10vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+        
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 24vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 6.9rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 7rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 14vh !important;
+    }
+    .remvic{
+        display : none !important;
+    } 
+
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 80% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
     .likepad{
         padding-top: 1.4rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 11vw !important;
         height: 11vw !important ;
         border-radius: 0.4rem !important;
@@ -2274,27 +4295,29 @@
     justify-content: center !important;
     align-items: center;
     position: absolute !important;
-    top: 57.6vw !important;
+    top: 13.6vw !important;
     left: 85.6vw !important;
     width: 6vw !important;
     font-size: 0.9rem;
     height: 2.8vw !important;
-    background-color: #ff3a3a !important;
+    background-color: #8200ff !important;
     color: white !important;
     border-radius: 0.3rem !important;
+    font-family: 'Lugrasimo', cursive;
     }
     .compage{
         display: flex !important;
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 54vw !important;
-        left: 81vw !important;
-        width: 15vw !important;
+        top: 10vw !important;
+        left: 80vw !important;
+        width: 18vw !important;
         height: 3vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     
     }
     
@@ -2332,17 +4355,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+     
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 26vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -2358,27 +4381,28 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.7rem;
         justify-content: start !important;
         align-items: revert;
         width: 70vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 1rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 31%;
         top: 64%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -2389,7 +4413,7 @@
         top: 161%;
         left: -93%;
         width: 24vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 16%;
@@ -2402,11 +4426,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+    
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -2416,7 +4440,7 @@
     .colhimg{
         width: 12vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 1rem;
         margin-top: 3rem;
         word-break: break-word;
@@ -2425,19 +4449,20 @@
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.7rem;
         justify-content: start !important;
         align-items: revert;
         width: 57vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.5rem;
         margin-top: 2rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 1rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -2463,7 +4488,7 @@
         top: 96%;
         left: -80%;
         width: 12vw;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-top: 1rem;
         margin-left: 0.6rem;
         height: 14%;
@@ -2479,7 +4504,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -2543,8 +4568,8 @@
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .homefirst {
         margin-top: 50vh;
@@ -2557,12 +4582,12 @@
         
         
         
-        height: 71vh !important;
+        height: 82vh !important;
         background-color: #ffffff;
         width: 85vw !important;
         margin-right: 1.5rem !important;
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }
     
@@ -2579,17 +4604,269 @@
         width:85vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:1024px) and (max-width:1279px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 199vh !important;
+        right: 0vw !important;
+        width : 23vw !important;
+        height: 8vh !important;
+        
+    }
+    
+.quote{
+    position: absolute;
+    top: 54%;
+    color:white ;
+    font-size: 2rem !important;
+    font-weight: bolder;
+    width: 75vw !important;
+    -webkit-text-stroke: #8200ff !important;
+    border: solid white;
+    padding: 2rem !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .forgtpass2{
+        width: 60vw !important;
+    height : 85vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 85vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 3vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+      
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 59vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid  #8200ff!important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 7.3rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 9rem;
+    }
+    
+    .profinfbox{
+        width: 50vw !important;
+        height: 30vh !important;
+    }
+    .remvic{
+        display : none !important;
+    } 
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
     .likepad{
         padding-top: 0.3rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 8vw !important;
         height: 7vw !important ;
         border-radius: 0.4rem !important;
@@ -2599,27 +4876,29 @@
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 28.6vw !important;
+        top: 10.6vw !important;
         left: 88.2vw !important;
         width: 6vw !important;
         font-size: 0.9rem;
         height: 2.8vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .compage{
         display: flex !important;
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 25vw !important;
-        left: 84vw !important;
-        width: 14vw !important;
+        top: 7vw !important;
+        left: 83vw !important;
+        width: 16vw !important;
         height: 3vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .propostmarg{
@@ -2655,17 +4934,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -2680,7 +4959,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
@@ -2689,18 +4968,19 @@
         align-items: revert;
         width: 14vw;
         height: 17vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.64rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 50%;
         top: 54%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -2711,7 +4991,7 @@
     top: 142%;
     left: -139%;
     width: 10vw;
-    background-color: rgb(255, 214, 214) !important;
+    background-color: white !important;
     margin-top: 1rem;
     margin-left: 0.6rem;
     height: 16%;
@@ -2724,11 +5004,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+    
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .eachpostrlat{
@@ -2736,7 +5016,7 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh !important;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
         border-radius: 0.7rem !important;
         border-style: solid !important;
@@ -2750,7 +5030,7 @@
     .colhimg{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -2764,14 +5044,15 @@
         align-items: revert;
         width: 57vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.5rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.5rem;
-        font-size: 0.85rem !important;
+        font-size: 0.67rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -2797,7 +5078,7 @@
             top: 89%;
             left: -89%;
             width: 10vw;
-            background-color: rgb(255, 214, 214) !important;
+            background-color: white !important;
             margin-top: 1rem;
             margin-left: 0.6rem;
             height: 22%;
@@ -2812,7 +5093,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -2876,8 +5157,8 @@
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .homefirst{
         display: flex !important;
@@ -2892,7 +5173,7 @@
         margin-right: 1.5rem !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }  
     
@@ -2908,18 +5189,263 @@
         width:20vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:1280px) and (max-width:1365px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 199vh !important;
+        right: 0vw !important;
+        width : 23vw !important;
+        height: 8vh !important;
+     
+    }
+.quote{
+    position: absolute;
+    top: 50%;
+    color:white ;
+    font-size: 2.3rem !important;
+    font-weight: bolder;
+    width: 75vw !important;
+    -webkit-text-stroke: #8200ff !important;
+    border: solid white;
+    font-family: 'Lugrasimo', cursive;
+}
+    .forgtpass2{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 3vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+       
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+        
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+        
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 60vh;
+    
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 10.3rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 10rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 25vh !important;
+    }
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
     .likepad{
         padding-top: 0.3rem ;
       }
         
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 5vw !important;
         height: 5vw !important ;
         border-radius: 0.4rem !important;
@@ -2929,26 +5455,28 @@
     justify-content: center !important;
     align-items: center;
     position: absolute !important;
-    top: 24.6vw !important;
+    top: 8.6vw !important;
     left: 88.56vw !important;
     width: 6vw !important;
     font-size: 0.9rem;
     height: 2vw !important;
-    background-color: #ff3a3a !important;
+    background-color: #8200ff !important;
     color: white !important;
     border-radius: 0.3rem !important;
+    font-family: 'Lugrasimo', cursive;
 }
     .compage{
         display: flex !important;
         justify-content: center !important;
         position: absolute !important;
-        top: 22vw !important;
-        left: 86vw !important;
-        width: 11vw !important;
+        top: 6vw !important;
+        left: 85vw !important;
+        width: 13vw !important;
         height: 2vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color : white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .propostmarg{
         margin-left: 13vw !important;
@@ -2974,17 +5502,17 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+     
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -2998,27 +5526,28 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
     display: flex !important;
-    line-height: 1rem;
+    line-height: 1.3rem;
     justify-content: start !important;
     align-items: revert;
     width: 15vw;
     height: 16vh !important;
-    background-color: rgb(255, 214, 214) !important;
+    background-color: white !important;
     margin-left: 0.65rem;
     margin-top: 1rem;
     word-break: break-word;
     border-radius: 0.7rem;
-    font-size: 0.85rem !important;
+    font-size: 0.75rem !important;
     flex-direction: column !important;
     padding-top: 0.6rem;
     position: relative;
     right: 43%;
     top: 61%;
     overflow: hidden !important;
+    font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -3029,7 +5558,7 @@
     top: 151%;
     left: -121%;
     width: 8vw;
-    background-color: rgb(255, 214, 214) !important;
+    background-color: white !important;
     margin-top: 1rem;
     margin-left: 0.6rem;
     height: 22%;
@@ -3042,11 +5571,11 @@
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -3056,7 +5585,7 @@
     .colhimg{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -3065,19 +5594,20 @@
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.1rem;
         justify-content: start !important;
         align-items: revert;
         width: 59vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.5rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.7rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -3103,7 +5633,7 @@
             top: 92%;
             left: -90%;
             width: 10vw;
-            background-color: rgb(255, 214, 214) !important;
+            background-color: white !important;
             margin-top: 1rem;
             margin-left: 0.6rem;
             height: 22%;
@@ -3118,7 +5648,7 @@
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -3182,8 +5712,8 @@
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .homefirst{
         display: flex !important;
@@ -3192,13 +5722,13 @@
         flex-direction: column;
         
     
-        height: 80vh !important;
+        height: 83vh !important;
         background-color: #ffffff;
         width:75vw !important;
         margin-right: 1.5rem !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }  
     
@@ -3214,17 +5744,266 @@
         width:20vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:1366px) and (max-width:1919px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 198vh !important;
+        right: 0vw !important;
+        width : 24vw !important;
+        height: 8vh !important;
+       
+    }
+    
+.quote{
+    position: absolute;
+    top: 54%;
+    color:white ;
+    font-size: 2.3rem !important;
+    font-weight: bolder;
+    width: 75vw !important;
+    -webkit-text-stroke: #8200ff !important;
+    border: solid white;
+    font-family: 'Lugrasimo', cursive;
+}
+    .forgtpass2{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 6vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+      
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+       
+        color : #8200ff !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 60vh;
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+    }
+    .badgesz{
+        font-size: 0.65rem !important;
+    }
+    
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 0.7rem !important;
+    }
+    
+    .navgmail{
+        font-size: 0.9rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .butnpad{
+        padding-left: 11rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 11rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 25vh !important;
+    }
+    
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+
+
     .likepad{
         padding-top: 0.3rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 5vw !important;
         height: 5vw !important ;
         border-radius: 0.4rem !important;
@@ -3235,26 +6014,28 @@
     justify-content: center !important;
     align-items: center;
     position: absolute !important;
-    top: 23vw !important;
+    top: 8vw !important;
     left: 90vw !important;
     width: 6vw !important;
     font-size: 0.9rem;
     height: 2vw !important;
-    background-color: #ff3a3a !important;
+    background-color: #8200ff !important;
     color: white !important;
     border-radius: 0.3rem !important;
+    font-family: 'Lugrasimo', cursive;
 }
     .compage{
         display: flex !important;
         justify-content: center !important;
         position: absolute !important;
-        top: 20vw !important;
-        left: 88vw !important;
-        width: 10vw !important;
+        top: 5vw !important;
+        left: 87vw !important;
+        width: 12vw !important;
         height: 2vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color : white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .propostmarg{
         margin-left: 13vw !important;
@@ -3281,17 +6062,17 @@
     flex-direction: column !important;
     width: 100% !important;
     height: 35vh;
-    background-color: #ff3a3a;
+    background-color: #8200ff;
     margin-bottom: 1rem !important;
-    border-radius: 0.7rem !important;
+
     border-style: solid !important;
-    border-color: #bd9544;
+    border-color: #00b8ff;
     border-width: 0.1rem !important;
 }
 .imglatest{
     width: 5vw;
     height: 10vh !important;
-    background-color: red !important;
+    background-color: rgb(192, 255, 247) !important;
     margin-left: 1rem;
     margin-top: 1rem;
     word-break: break-word;
@@ -3305,27 +6086,28 @@
     object-fit: cover !important;
     border-radius: 0.3rem;
     border-style: solid;
-    border-color: #ffb5b5;
+    border-color: #97f4ff;
 }
 .postfldlatest{
 display: flex !important;
-line-height: 1rem;
+line-height: 1.2rem;
 justify-content: start !important;
 align-items: revert;
 width: 15vw;
 height: 16vh !important;
-background-color: rgb(255, 214, 214) !important;
+background-color: white !important;
 margin-left: 0.65rem;
 margin-top: 1rem;
 word-break: break-word;
 border-radius: 0.7rem;
-font-size: 0.85rem !important;
+font-size: 0.7rem !important;
 flex-direction: column !important;
 padding-top: 0.6rem;
 position: relative;
 right: 40%;
 top: 61%;
 overflow: hidden !important;
+font-family: 'Lugrasimo', cursive;
 }
 
 .clikpostltst{
@@ -3336,7 +6118,7 @@ position: relative;
 top: 151%;
 left: -116%;
 width: 8vw;
-background-color: rgb(255, 214, 214) !important;
+background-color: white !important;
 margin-top: 1rem;
 margin-left: 0.6rem;
 height: 22%;
@@ -3349,11 +6131,11 @@ padding-top: 1rem;
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -3363,7 +6145,7 @@ padding-top: 1rem;
     .colhimg{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -3372,19 +6154,20 @@ padding-top: 1rem;
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.12rem;
         justify-content: start !important;
         align-items: revert;
         width: 59vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 0.7rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -3410,7 +6193,7 @@ padding-top: 1rem;
             top: 92%;
             left: -89%;
             width: 10vw;
-            background-color: rgb(255, 214, 214) !important;
+            background-color: white !important;
             margin-top: 1rem;
             margin-left: 0.6rem;
             height: 22%;
@@ -3425,7 +6208,7 @@ padding-top: 1rem;
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -3489,8 +6272,8 @@ padding-top: 1rem;
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .homefirst{
         display: flex !important;
@@ -3499,13 +6282,13 @@ padding-top: 1rem;
         padding: 1.5rem !important;
         
 
-        height: 80vh !important;
+        height: 84vh !important;
         background-color: #ffffff;
         width:75vw !important;
         margin-right: 1.5rem !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }  
     
@@ -3521,17 +6304,351 @@ padding-top: 1rem;
         width:20vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:1920px) and (max-width:2559px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 197vh !important;
+        right: 0vw !important;
+        width : 24vw !important;
+        height: 8vh !important;
+        
+    }
+    .quote{
+        position: absolute;
+        top: 58%;
+        color:white ;
+        font-size: 3.3rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        padding: 3rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+
+    .forgtpass2{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+
+    .forgtpass3{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .nopost{
+        font-size: 1.5rem !important;
+    }
+
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+    .regender{
+        font-size: 1.4rem;
+        font-style: italic;
+    }
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 3vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    .dropdown-item {
+        display: block;
+        width: 100%;
+        padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+        clear: both;
+        font-weight: 400;
+        color: var(--bs-dropdown-link-color);
+        text-align: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+       
+        border: 0;
+        border-radius: var(--bs-dropdown-item-border-radius,0);
+    }
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+       
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+        font-size: 1.4rem !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+    
+        color : #8200ff !important;
+        font-size: 1.4rem !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+        font-size: 1.4rem !important;
+    }
+    
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    font-size: 1.4rem !important;
+    
+}
+
+    .bigdispost{
+        font-size: 1.4rem !important;
+    }
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+        font-size: 1.4rem !important;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 1.4rem !important;
+        font-style: italic;
+    } 
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.1rem 0.2rem;
+        font-size: 1.4rem !important;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--bs-body-color);
+        background-color: var(--bs-body-bg);
+        background-clip: padding-box;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        appearance: none;
+        border-radius: 0%;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        height: 3rem !important;
+    }
+    .editprobtn{
+        font-size: 1.4rem !important;
+    }
+    .bgdispform{
+        font-size: 1.5rem !important;
+    }
+    .alertbx{
+        font-size: 1.5rem !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 71vh;
+    
+    }
+    .bignotfy{
+        font-size: 1.4rem !important;
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-size: 1.5rem !important ;
+        font-family: 'Lugrasimo', cursive;
+    }
+    
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 1.6rem !important;
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .bigi{
+        font-size: 1.6rem !important;
+    }
+    .comsub{
+        font-size: 1.2rem !important;
+    }
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        font-size: 1.3rem !important;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        font-size: 1.3rem !important;
+        
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+        font-size: 1rem !important;
+    }
+    .fhighdsp{
+        font-size: 1.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .badgesz{
+        font-size: 1rem !important;
+    }
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-size: 1.5rem !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1.3rem !important;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    font-size: 1.2rem !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1.3rem !important;
+    }
+    
+    .navgmail{
+        font-size: 1.5rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1.5rem !important;
+    }
+    .butnpad{
+        padding-left: 13rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 20rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 19vh !important;
+    }
+    
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+
+
     .likepad{
         padding-top: 0.9rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 5vw !important;
         height: 5vw !important ;
         border-radius: 0.4rem !important;
@@ -3542,27 +6659,29 @@ padding-top: 1rem;
     justify-content: center !important;
     align-items: center;
     position: absolute !important;
-    top: 23vw !important;
+    top: 7.5vw !important;
     left: 91vw !important;
     width: 6vw !important;
     font-size: 0.9rem;
     height: 2vw !important;
-    background-color: #ff3a3a !important;
+    background-color: #8200ff !important;
     color: white !important;
     border-radius: 0.3rem !important;
+    font-family: 'Lugrasimo', cursive;
 }
     .compage{
         display: flex !important;
         justify-content: center !important;
         position: absolute !important;
-        top: 20vw !important;
-        left: 89vw !important;
+        top: 5vw !important;
+        left: 87vw !important;
         width: 10vw !important;
         align-items: center;
         height: 2vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     
     }
     .propostmarg{
@@ -3590,17 +6709,17 @@ padding-top: 1rem;
     flex-direction: column !important;
     width: 100% !important;
     height: 35vh;
-    background-color: #ff3a3a;
+    background-color: #8200ff;
     margin-bottom: 1rem !important;
-    border-radius: 0.7rem !important;
+
     border-style: solid !important;
-    border-color: #bd9544;
+    border-color: #00b8ff;
     border-width: 0.1rem !important;
 }
 .imglatest{
     width: 5vw;
     height: 10vh !important;
-    background-color: red !important;
+    background-color: rgb(192, 255, 247) !important;
     margin-left: 1rem;
     margin-top: 1rem;
     word-break: break-word;
@@ -3614,27 +6733,28 @@ padding-top: 1rem;
     object-fit: cover !important;
     border-radius: 0.3rem;
     border-style: solid;
-    border-color: #ffb5b5;
+    border-color: #97f4ff;
 }
 .postfldlatest{
     display: flex !important;
-    line-height: 1rem;
+    line-height: 1.5rem;
     justify-content: start !important;
     align-items: revert;
     width: 16vw;
     height: 16vh !important;
-    background-color: rgb(255, 214, 214) !important;
+    background-color: white !important;
     margin-left: 0.65rem;
     margin-top: 1rem;
     word-break: break-word;
     border-radius: 0.7rem;
-    font-size: 0.85rem !important;
+    font-size: 0.95rem !important;
     flex-direction: column !important;
     padding-top: 0.6rem;
     position: relative;
     right: 34%;
     top: 61%;
     overflow: hidden !important;
+    font-family: 'Lugrasimo', cursive;
 }
 
 .clikpostltst{
@@ -3645,7 +6765,7 @@ position: relative;
 top: 156%;
 left: -108%;
 width: 8vw;
-background-color: rgb(255, 214, 214) !important;
+background-color: white !important;
 margin-top: 1rem;
 margin-left: 0.6rem;
 height: 22%;
@@ -3658,11 +6778,11 @@ padding-top: 1rem;
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -3672,7 +6792,7 @@ padding-top: 1rem;
     .colhimg{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -3681,19 +6801,20 @@ padding-top: 1rem;
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 1.7rem;
         justify-content: start !important;
         align-items: revert;
         width: 59vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 1rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -3705,7 +6826,7 @@ padding-top: 1rem;
         width: 3vw;
         
         margin-top: 1rem;
-        margin-left: 0.6rem;
+        margin-left: 1.9rem;
         height: 100%;
     
     }
@@ -3719,7 +6840,7 @@ padding-top: 1rem;
             top: 92%;
             left: -87%;
             width: 10vw;
-            background-color: rgb(255, 214, 214) !important;
+            background-color: white !important;
             margin-top: 1rem;
             margin-left: 0.6rem;
             height: 22%;
@@ -3734,7 +6855,7 @@ padding-top: 1rem;
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -3746,7 +6867,7 @@ padding-top: 1rem;
         left: -87%;
         width: 10vw;
         
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin-left: 0.6rem;
         height: 22%;
         border-radius: 0.3rem;
@@ -3762,10 +6883,10 @@ padding-top: 1rem;
         position: relative;
         top: 92%;
         left: -89%;
-        width: 5vw;
+        width: 7vw;
         
         margin-top: 1rem;
-        margin-left: 0.6rem;
+        margin-left: 2.6rem;
         height: 22%;
         border-radius: 0.3rem;
         font-size: 0.8rem;
@@ -3779,7 +6900,7 @@ padding-top: 1rem;
         position: relative;
         top: 95%;
         left: -89%;
-        width: 5vw;
+        width: 7vw;
         
         margin-top: 1rem;
         margin-left: 0.6rem;
@@ -3798,8 +6919,8 @@ padding-top: 1rem;
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .homefirst{
         display: flex !important;
@@ -3808,13 +6929,13 @@ padding-top: 1rem;
         flex-direction: column;
         
     
-        height: 80vh !important;
+        height: 84vh !important;
         background-color: #ffffff;
         width:75vw !important;
         margin-right: 1.5rem !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }  
     
@@ -3830,17 +6951,318 @@ padding-top: 1rem;
         width:20vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:2560px) and (max-width:3939px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 197vh !important;
+        right: 0vw !important;
+        width : 24vw !important;
+        height: 8vh !important;
+        
+    }
+    .quote{
+        position: absolute;
+        top: 50%;
+        color:white ;
+        font-size: 3.7rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        padding: 2rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .nopost{
+        font-size: 2rem !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+    }
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 3vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+    
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+        
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+     
+        color : #8200ff !important;
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+    
+    }
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+}
+
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+
+        color : #8200ff !important;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 1.4rem !important;
+        font-style: italic;
+    } 
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.1rem 0.2rem
+    rem
+    ;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--bs-body-color);
+        background-color: var(--bs-body-bg);
+        background-clip: padding-box;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        appearance: none;
+        border-radius: 0%;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        height: 3rem !important;
+    }
+    .editprobtn{
+        font-size: 1.4rem !important;
+    }
+    .bgdispform{
+        font-size: 1.5rem !important;
+    }
+    .alertbx{
+        font-size: 1.5rem !important;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 50vh;
+    
+    }
+    .bignotfy{
+        font-size: 1.4rem !important;
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        font-size: 1.5rem !important ;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 1.6rem !important;
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .bigi{
+        font-size: 1.6rem !important;
+    }
+    .comsub{
+        font-size: 1.2rem !important;
+    }
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        font-size: 1.3rem !important;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        font-size: 1.3rem !important;
+        
+        
+        
+    }
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+        font-size: 1.2rem !important;
+    }
+    .fhighdsp{
+        font-size: 1.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .badgesz{
+        font-size: 1rem !important;
+    }
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-size: 1.5rem !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1.3rem !important;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    font-size: 1.2rem !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 1rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1.3rem !important;
+    }
+    
+    .navgmail{
+        font-size: 1.5rem;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1.5rem !important;
+    }
+    .butnpad{
+        padding-left: 20rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 24rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        height: 16vh !important;
+    }
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
     .likepad{
         padding-top: 1.4rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 5vw !important;
         height: 5vw !important ;
         border-radius: 0.4rem !important;
@@ -3850,27 +7272,29 @@ padding-top: 1rem;
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 23vw !important;
-        left: 91vw !important;
+        top: 6.5vw !important;
+        left: 90vw !important;
         width: 6vw !important;
         font-size: 0.9rem;
         height: 2vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .compage{
         display: flex !important;
         justify-content: center !important;
         position: absolute !important;
-        top: 20vw !important;
-        left: 89vw !important;
+        top: 4vw !important;
+        left: 86vw !important;
         width: 10vw !important;
         align-items: center;
         height: 2vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     
     }
     .propostmarg{
@@ -3897,17 +7321,17 @@ padding-top: 1rem;
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+       
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -3921,27 +7345,28 @@ padding-top: 1rem;
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 2.7rem;
         justify-content: start !important;
         align-items: revert;
         width: 16vw;
         height: 16vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 1.7rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 29%;
         top: 61%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -3952,7 +7377,7 @@ padding-top: 1rem;
     top: 156%;
     left: -99%;
     width: 8vw;
-    background-color: rgb(255, 214, 214) !important;
+    background-color: white !important;
     margin-top: 1rem;
     margin-left: 0.6rem;
     height: 22%;
@@ -3965,11 +7390,11 @@ padding-top: 1rem;
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -3979,7 +7404,7 @@ padding-top: 1rem;
     .colhimg{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 4rem;
         margin-top: 2rem;
         word-break: break-word;
@@ -3988,20 +7413,23 @@ padding-top: 1rem;
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 2.8rem;
         justify-content: start !important;
         align-items: revert;
         width: 59vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 2rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 1.85rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
+
     }
+
     
     .colhreprlikcom{
         display: flex !important;
@@ -4026,7 +7454,7 @@ padding-top: 1rem;
             top: 97%;
             left: -86%;
             width: 10vw;
-            background-color: rgb(255, 214, 214) !important;
+            background-color: white !important;
             margin-top: 1rem;
             margin-left: 0.6rem;
             height: 22%;
@@ -4041,7 +7469,7 @@ padding-top: 1rem;
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -4105,8 +7533,8 @@ padding-top: 1rem;
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .homefirst{
         display: flex !important;
@@ -4114,13 +7542,13 @@ padding-top: 1rem;
         padding: 1.5rem !important;
         flex-direction: column;
     
-        height: 80vh !important;
+        height: 85vh !important;
         background-color: #ffffff;
         width:75vw !important;
         margin-right: 1.5rem !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }  
     
@@ -4136,17 +7564,430 @@ padding-top: 1rem;
         flex-direction: column !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
 
 @media (min-width:3840px) and (max-width:8000px){
+    .topostpagn{
+        display: flex !important;
+        justify-content: center;
+        position : absolute !important;
+        top: 196.6vh !important;
+        right: 0vw !important;
+        width : 24vw !important;
+        height: 8vh !important;
+      
+    }
+    .quote{
+        position: absolute;
+        top: 50%;
+        color:white ;
+        font-size: 6.7rem !important;
+        font-weight: bolder;
+        width: 75vw !important;
+        -webkit-text-stroke: #8200ff !important;
+        border: solid white;
+        padding: 8rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .forgtpass2{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .forgtpass3{
+        width: 60vw !important;
+    height : 55vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .nopost{
+        font-size: 3rem !important;
+    }
+    .postpagecoms2{
+        width: 70vw !important;
+        height: 12vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        border-width: 0.1rem !important ;
+        font-size: 2.5rem !important;
+    }
+    
+    .regender{
+        font-size: 3rem;
+        font-style: italic;
+    }
+    
+    
+.forgtpass{
+    width: 60vw !important;
+    height : 5vw !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 2.4rem !important;
+}
+    
+    .bdy{
+        width: 10vw !important;
+    }
+
+    
+    .postcom{
+        font-size: 2.5rem !important;
+    }
+    .dropdown-item {
+        font-size: 3rem;
+        line-height: 3rem;
+        display: block;
+        width: 100%;
+        padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+        clear: both;
+        font-weight: 400;
+        color: var(--bs-dropdown-link-color);
+        text-align: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+        border-radius: var(--bs-dropdown-item-border-radius,0);
+    }
+
+    .postfld{
+        width : 70% !important;
+        height : 20% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-style: solid !important;
+        
+        border-radius: 0.3rem !important;
+        color : #8200ff !important;
+        
+        font-size: 3rem;
+
+    }
+    
+    .postfld2{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+      
+        color : #8200ff !important;
+        
+      font-size: 3rem;
+
+    }
+    
+    .redtxt{
+        color : #8200ff !important;
+        
+    font-size: 3rem;
+
+    
+    }
+    
+.alboxpos{
+    position: fixed !important;
+    top: 7.7vh !important;
+    width:100vw !important;
+    justify-content: center !important;
+    
+    font-size: 3rem;
+
+    
+}
+
+.bigdispost{
+    font-size: 3rem !important;
+}
+    .postfld3{
+        width : 70% !important;
+        height : 7% !important;
+        resize: none !important;
+        border-color: #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-style: solid !important;
+    
+        color : #8200ff !important;
+        
+    font-size: 3rem;
+
+    }
+    ::-webkit-input-placeholder{
+        font-size: 2.8rem !important;
+        font-style: italic;
+    } 
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.1rem 0.2rem;
+    
+    
+        font-size: 3rem !important;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--bs-body-color);
+        background-color: var(--bs-body-bg);
+        background-clip: padding-box;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        appearance: none;
+        border-radius: 0%;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        height: 3rem !important;
+    }
+    .editprobtn{
+        font-size: 2.4rem !important;
+    }
+    .bgdispform{
+        font-size: 2.5rem !important;
+    }
+    .alertbx{
+        font-size: 2.5rem !important;
+    }
+    .bigdispedt{
+        margin-right: 8vw;
+    }
+    .bordofprof{
+        border-style: solid !important;
+        border-color: #8200ff !important;
+        color: #8200ff !important;
+        padding-top: 3vw !important;
+        height: 40vh !important;
+        font-family: 'Lugrasimo', cursive;
+        height: 57vh;
+    
+    }
+    .biglatst{
+        font-size: 2.5rem !important;
+    }
+    .bignotfy{
+        font-size: 3rem !important;
+    }
+    .coldesnotfy{
+        border-style: solid;
+        border-color: #8200ff !important;
+        color : #8200ff;
+        background-color: #c8fff7;
+        border-radius: 0.6rem !important;
+        max-height: 13vh;
+        width: 40vw;
+        font-size: 2.8rem !important ;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .pagination {
+        --bs-pagination-padding-x: 0.75rem;
+        --bs-pagination-padding-y: 0.375rem;
+        --bs-pagination-font-size: 3rem !important;
+        --bs-pagination-color: var(--bs-link-color);
+        --bs-pagination-bg: var(--bs-body-bg);
+        --bs-pagination-border-width: var(--bs-border-width);
+        --bs-pagination-border-color: var(--bs-border-color);
+        --bs-pagination-border-radius: var(--bs-border-radius);
+        --bs-pagination-hover-color: var(--bs-link-hover-color);
+        --bs-pagination-hover-bg: var(--bs-tertiary-bg);
+        --bs-pagination-hover-border-color: var(--bs-border-color);
+        --bs-pagination-focus-color: var(--bs-link-hover-color);
+        --bs-pagination-focus-bg: var(--bs-secondary-bg);
+        --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        --bs-pagination-active-color: #fff;
+        --bs-pagination-active-bg: #0d6efd;
+        --bs-pagination-active-border-color: #0d6efd;
+        --bs-pagination-disabled-color: var(--bs-secondary-color);
+        --bs-pagination-disabled-bg: var(--bs-secondary-bg);
+        --bs-pagination-disabled-border-color: var(--bs-border-color);
+        display: flex;
+        padding-left: 0;
+        list-style: none;
+    }
+    .biglogs{
+        font-size: 2.5rem !important;
+    }
+    .nav-link {
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-size: var(--bs-nav-link-font-size);
+        font-weight: var(--bs-nav-link-font-weight);
+        color: var(--bs-nav-link-color);
+        text-decoration: none;
+        background: 0 0;
+        border: 0;
+        margin-right: 3rem !important;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+    .foot{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 3rem !important;
+        width: 100vw !important;
+        height: 10vh !important;
+        background-color: #92fffd;
+    }
+    
+    .bigi{
+        font-size: 3rem !important;
+    }
+    .comsub{
+        font-size: 3rem !important;
+    }
+    .postbox{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        max-height: 60vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.5rem !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;  
+        border-width: 0.1rem !important ;
+        font-size: 2.8rem !important;
+        
+    }
+    
+    .postbox::-webkit-scrollbar {
+        display: none;
+      }
+    
+      
+    .postbox3{
+        width: 70vw !important;
+        min-height: 30vh !important;
+        border: solid #8200ff !important;
+        border-radius: 0.3rem !important;
+        border-width: 0.1rem !important ;
+        font-size: 2.8rem !important;
+        
+        
+        
+    }
+    .linkdec3{
+        text-decoration: none !important;
+        color: #ffffff !important;
+        font-size: 2.5rem !important;
+    }
+    
+    
+    .linkdec{
+        text-decoration: none !important;
+        color: #8200ff !important;
+        font-size: 2.2rem !important;
+    }
+    .fhighdsp{
+        font-size: 1.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+    }
+    .badgesz{
+        font-size: 2rem !important;
+    }
+.btnsubdes{
+    background-color: #8200ff !important ;
+    color: white !important;
+    border-color: rgb(255, 208, 208) !important;
+    font-size: 3rem !important;
+    margin-top: 2rem !important;
+    font-family: 'Lugrasimo', cursive;
+}
+    .rulebox{
+        background-color: #8200ff !important;
+        color: aliceblue !important;
+        border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 3rem !important;
+    }
+    
+    
+.policy{
+    
+    text-align: justify !important;
+    font-size: 2.9rem !important;
+    border: solid #8200ff;
+    color: #8200ff;
+    background-color: #c8fff7;
+    /* font-size: 2.9rem !important; */
+    padding: 4vw !important;
+    border-radius: 3rem;
+    font-family: 'Lugrasimo', cursive;
+
+}
+    .darkfont2{
+        color: #8200ff ;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 1rem !important;
+        
+    }
+    
+    .whitefont{
+        color: white;
+        font-family: 'Lugrasimo', cursive;
+        font-size:2.4rem !important;
+    }
+    
+    .navgmail{
+        font-size: 3rem !important;
+    }
+    .navdes{
+        background-color: #92fffd !important;
+        line-height: 0.75rem !important;
+        font-family: 'Lugrasimo', cursive;
+        font-size: 3rem !important;
+        height: 3vw;
+    }
+    .butnpad{
+        padding-left: 26rem !important;
+    }
+    .profinfbox2{
+        padding: 2rem;
+        
+        padding-left: 37rem;
+    }
+    .profinfbox{
+        width: 50vw !important;
+        font-size: 2.4rem;
+        height: 12vh !important;
+        margin-left: 71rem;
+    }
+    
+.editdes{
+    border: solid #8200ff;
+    width: 43% !important;
+    height: 93% !important;
+    border-width: 0.1rem !important;
+    border-radius: 0.4rem !important;
+}
+
+
+    .imgfordisp{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp2{
+        width: 79vw !important;
+        height: 8vw !important;
+    }
+    
+    .imgfordisp3{
+        width: 74vw !important;
+        height: 8vw !important;
+    }
+
     .likepad{
         padding-top: 3rem ;
       }
     .imgbox{
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         width: 6vw !important;
         height: 6vw !important ;
         border-radius: 0.4rem !important;
@@ -4158,27 +7999,29 @@ padding-top: 1rem;
         justify-content: center !important;
         align-items: center;
         position: absolute !important;
-        top: 22.5vw !important;
-        left: 91.3vw !important;
+        top: 6.5vw !important;
+        left: 87.3vw !important;
         width: 6vw !important;
         font-size: 0.9rem;
         height: 2vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.3rem !important;
+        font-family: 'Lugrasimo', cursive;
     }
     .compage{
         display: flex !important;
         justify-content: center !important;
         position: absolute !important;
-        top: 20vw !important;
-        left: 89vw !important;
+        top: 4vw !important;
+        left: 85vw !important;
         width: 10vw !important;
         align-items: center;
         height: 2vw !important;
-        background-color: #ff3a3a !important;
+        background-color: #8200ff !important;
         color: white !important;
         border-radius: 0.4rem !important;
+        font-family: 'Lugrasimo', cursive;
     
     }
     .propostmarg{
@@ -4205,17 +8048,17 @@ padding-top: 1rem;
         flex-direction: column !important;
         width: 100% !important;
         height: 35vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+        
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     .imglatest{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(192, 255, 247) !important;
         margin-left: 1rem;
         margin-top: 1rem;
         word-break: break-word;
@@ -4230,27 +8073,28 @@ padding-top: 1rem;
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     .postfldlatest{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 3.9rem;
         justify-content: start !important;
         align-items: revert;
         width: 16vw;
         height: 16vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 1rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 2.6rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
         position: relative;
         right: 24%;
         top: 73%;
         overflow: hidden !important;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .clikpostltst{
@@ -4261,7 +8105,7 @@ padding-top: 1rem;
     top: 173%;
     left: -89%;
     width: 8vw;
-    background-color: rgb(255, 214, 214) !important;
+    background-color: white !important;
     margin-top: 1rem;
     margin-left: 0.6rem;
     height: 22%;
@@ -4274,11 +8118,11 @@ padding-top: 1rem;
         flex-direction: column !important;
         width: 100% !important;
         height: 22vh;
-        background-color: #ff3a3a;
+        background-color: #8200ff;
         margin-bottom: 1rem !important;
-        border-radius: 0.7rem !important;
+     
         border-style: solid !important;
-        border-color: #bd9544;
+        border-color: #00b8ff;
         border-width: 0.1rem !important;
     }
     
@@ -4288,7 +8132,7 @@ padding-top: 1rem;
     .colhimg{
         width: 5vw;
         height: 10vh !important;
-        background-color: red !important;
+        background-color: rgb(190, 247, 255) !important;
         margin-left: 9rem;
         margin-top: 5rem;
         word-break: break-word;
@@ -4297,19 +8141,20 @@ padding-top: 1rem;
     
     .colhpost{
         display: flex !important;
-        line-height: 1rem;
+        line-height: 3.8rem;
         justify-content: start !important;
         align-items: revert;
         width: 59vw;
         height: 13vh !important;
-        background-color: rgb(255, 214, 214) !important;
+        background-color: white !important;
         margin-left: 0.65rem;
         margin-top: 4rem;
         word-break: break-word;
         border-radius: 0.7rem;
-        font-size: 0.85rem !important;
+        font-size: 2.7rem !important;
         flex-direction: column !important;
         padding-top: 0.6rem;
+        font-family: 'Lugrasimo', cursive;
     }
     
     .colhreprlikcom{
@@ -4335,7 +8180,7 @@ padding-top: 1rem;
             top: 97%;
             left: -86%;
             width: 10vw;
-            background-color: rgb(255, 214, 214) !important;
+            background-color: white !important;
             margin-top: 1rem;
             margin-left: 0.6rem;
             height: 22%;
@@ -4350,7 +8195,7 @@ padding-top: 1rem;
         object-fit: cover !important;
         border-radius: 0.3rem;
         border-style: solid;
-        border-color: #ffb5b5;
+        border-color: #97f4ff;
     }
     
     .viewpost{
@@ -4359,8 +8204,8 @@ padding-top: 1rem;
         align-items: center !important;
         position: relative;
         top: 97%;
-        left: -89%;
-        width: 10vw;
+        left: -86%;
+        width: 25vw;
         
         margin-top: 1rem;
         margin-left: 0.6rem;
@@ -4377,8 +8222,8 @@ padding-top: 1rem;
         align-items: center !important;
         position: relative;
         top: 97%;
-        left: -93%;
-        width: 5vw;
+        left: -86%;
+        width: 9vw;
         
         margin-top: 1rem;
         margin-left: 0.6rem;
@@ -4394,8 +8239,8 @@ padding-top: 1rem;
         align-items: center !important;
         position: relative;
         top: 98%;
-        left: -95%;
-        width: 5vw;
+        left: -86%;
+        width: 9vw;
         
         margin-top: 1rem;
         margin-left: 0.6rem;
@@ -4414,8 +8259,8 @@ padding-top: 1rem;
         width:10vw !important;
         background-color: transparent !important;
         height: 2vh !important;
-        color: #7a5303  !important;
-        font-family: 'Cinzel', serif;
+        color: #8200ff  !important;
+        font-family: 'Lugrasimo', cursive;
         font-size: 3rem !important;
     }
     .homefirst{
@@ -4425,13 +8270,13 @@ padding-top: 1rem;
         padding: 1.5rem !important;
         
     
-        height: 80vh !important;
+        height: 85vh !important;
         background-color: #ffffff;
         width:75vw !important;
         margin-right: 1.5rem !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     }  
     
@@ -4447,7 +8292,7 @@ padding-top: 1rem;
         width:20vw !important;
     
         border-style: solid !important;
-        border-color: #ff3a3a !important;
+        border-color: #8200ff !important;
         border-radius: 0.5rem;
     } 
 }
@@ -4469,11 +8314,11 @@ padding-top: 1rem;
 .imgboxdes{
     width: 100vw !important;
     height: 30vh !important ;
-    background-image: url("./images/topimg.jpg"); 
+    background-image: url("./images/newb.jpg"); 
     background-repeat: no-repeat !important;
     background-position: 25% 75% !important;
     background-size: cover;
-    animation : topim 15s linear infinite;
+    /*animation : topim 15s linear infinite;*/
 }
 @keyframes topim {
     0%{
@@ -4487,33 +8332,27 @@ padding-top: 1rem;
     }
 }
 
-.navdes{
-    background-color: #f8ca6c !important;
-    line-height: 0.75rem !important;
-    font-family: 'Cinzel', serif;
-}
+
 .nav-underline .nav-link.hover {
     padding-right: 0;
     padding-left: 0;
-    border-bottom: #7a5303 solid transparent;
+    border-bottom: #8200ff solid transparent;
 }
 .nav-underline .nav-link.active, .nav-underline .show>.nav-link {
     font-weight: 700;
-    color: #7a5303 ;
-    border-bottom-color: #7a5303;
+    color: #8200ff ;
+    border-bottom-color: #8200ff;
 }
 a:hover{
-    border-bottom-color: #7a5303 !important;
+    border-bottom-color: #8200ff !important;
 }
 .btnsearch{
     background-color: transparent !important;
     border: none !important;
-    color: #7a5303 !important;
+    color: #8200ff !important;
 }
 
-.navgmail{
-    font-size: 0.9rem;
-}
+
 
 .dropdown-menu {
     --bs-dropdown-zindex: 1000;
@@ -4523,17 +8362,17 @@ a:hover{
     --bs-dropdown-spacer: 0.125rem;
     --bs-dropdown-font-size: 1rem;
     --bs-dropdown-color: var(--bs-body-color);
-    --bs-dropdown-bg: #f8ca6c !important;
-    --bs-dropdown-border-color: #94680f;
+    --bs-dropdown-bg:  #92fffd !important;
+    --bs-dropdown-border-color: #8200ff;
     --bs-dropdown-border-radius: 0%;
     --bs-dropdown-border-width: var(--bs-border-width);
     --bs-dropdown-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
     --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
     --bs-dropdown-divider-margin-y: 0.5rem;
     --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    --bs-dropdown-link-color: #7a5303;
+    --bs-dropdown-link-color: #8200ff;
     --bs-dropdown-link-hover-color: var(--bs-body-color);
-    --bs-dropdown-link-hover-bg: #cc9b3a;
+    --bs-dropdown-link-hover-bg: #00fffa;
     --bs-dropdown-link-active-color: #fff;
     --bs-dropdown-link-active-bg: #ad8026;
     --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
@@ -4629,14 +8468,14 @@ a:hover{
   }
 
 .page-link{
-    background-color: #ff3a3a !important;
+    background-color: #8200ff !important;
     color: white !important;
 }
 .active>.page-link, .page-link.active {
     z-index: 3;
     
     
-    border-color: rgb(255, 214, 214) !important;
+    border-color: white !important;
 }
 
 .tppst{
@@ -4646,8 +8485,8 @@ a:hover{
     height: 9% !important;
     background-color: transparent;
     margin-left: 0 !important;
-    font-family: 'Cinzel', serif;
-    color: #7a5303;
+    font-family: 'Lugrasimo', cursive;
+    color: #8200ff;
 }
 .tppstbody{
     display: flex !important;
@@ -4666,37 +8505,17 @@ a:hover{
     display: none;
   }
  
-.foot{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-
-    width: 100vw !important;
-    height: 10vh !important;
-    background-color: #f8ca6c;
-}
 
 
 .darkfont{
-    color: #ff3a3a ;
+    color: black ;
     
     font-size: 0.7rem !important;
     
-}
-.darkfont2{
-    color: #ff3a3a ;
-    font-family: 'Cinzel', serif;
-    font-size: 0.7rem !important;
-    
-}
-.whitefont{
-    color: white;
-    font-family: 'Cinzel', serif;
-    font-size: 0.7rem !important;
 }
 
 .fontsty{
-    font-family: 'Cinzel', serif;
+    font-family: 'Lugrasimo', cursive;
 }
 
 .regform{
@@ -4708,18 +8527,7 @@ a:hover{
     align-items: center !important;
 }
 
-.rulebox{
-    background-color: #ff3a3a !important;
-    color: aliceblue !important;
-    border-radius: 0.4rem !important;
-    font-family: 'Cinzel', serif;
-}
 
-.btnsubdes{
-    background-color: #ff3a3a !important ;
-    color: white !important;
-    border-color: rgb(255, 208, 208) !important;
-}
 
 .layerproimg{
     width: 20% !important;
@@ -4739,31 +8547,22 @@ a:hover{
 .profimage{
     max-width: 25% !important;
     max-height: 100% !important;
-    
+    object-fit: cover;
     border-radius: 0.3rem !important;
-    box-shadow: 0px 0px 30px 0px rgb(243, 143, 143) !important;
+    box-shadow: 0px 0px 30px 0px #8200ff !important;
 }
 .imgboxt{
     width: 100vw !important;
     height : 10vw !important;
 }
-.profinfbox{
-    width: 50vw !important;
-    height: 35vh !important;
-}
+
 .brkwrd{
     word-break: break-all !important;
 }
-.bordofprof{
-    border-style: solid !important;
-    border-color: #ff3a3a !important;
-    color: #ff3a3a !important;
-    padding-top: 3vw !important;
 
-}
 
 .probtn{
-    background-color: #ff3a3a !important;
+    background-color: #8200ff !important;
     border: none !important;
 }
 
@@ -4771,10 +8570,7 @@ a:hover{
     border: none !important;
 }
 
-.linkdec{
-    text-decoration: none !important;
-    color: white !important;
-}
+
 
 .postfl{
     display: flex !important;
@@ -4784,65 +8580,20 @@ a:hover{
     height: 100vh !important;
     background-color: #ffffff !important;
 }
-.postfld{
-    width : 70% !important;
-    height : 20% !important;
-    resize: none !important;
-    border-color: #ff3a3a !important;
-    border-style: solid !important;
-    box-shadow: 0px 20px 40px 0px rgb(248, 158, 158);
-    border-radius: 0.3rem !important;
-    color : #ff3a3a !important;
-}
 
-.postfld2{
-    width : 70% !important;
-    height : 7% !important;
-    resize: none !important;
-    border-color: #e77070 !important;
-    border-radius: 0.3rem !important;
-    border-style: solid !important;
-    box-shadow: 0px 0px 40px 0px rgb(248, 158, 158);
-    color : #ff3a3a !important;
-}
-.postfld3{
-    width : 70% !important;
-    height : 7% !important;
-    resize: none !important;
-    border-color: #ff3a3a !important;
-    border-radius: 0.3rem !important;
-    border-style: solid !important;
-    box-shadow: 0px 0px 40px 0px rgb(248, 158, 158);
-    color : #ff3a3a !important;
-}
+
 .btncol{
-    background-color: #ff3a3a !important;
-    border-color: #ff3a3a !important;
+    background-color: #8200ff !important;
+    border-color: #8200ff !important;
     color: white !important;
+    font-family: 'Lugrasimo', cursive;
 }
 
 #txtara{
-    color : #ff3a3a !important;
+    color : #8200ff !important;
     border-radius: 0.3rem !important;
 }
 
-.redtxt{
-    color : #ff3a3a !important;
-
-}
-
-.editdes{
-    border: solid #ff3a3a;
-    width: 43% !important;
-    height: 93% !important;
-    border-width: 0.1rem !important;
-    border-radius: 0.4rem !important;
-}
-.editdes{
-    border: solid #ff3a3a;
-    
-    border-width: 0.1rem !important;
-}
 
 .delpage{
     width: 100vw !important;
@@ -4852,17 +8603,9 @@ a:hover{
     align-items: center !important;
 }
 
-.forgtpass{
-    width: 60vw !important;
-    height : 100vh !important;
-    background-color: white !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
 
 .editdes3{
-    border-color: #ff3a3a !important;
+    border-color: #8200ff !important;
     border-radius: 0.3rem !important;
 }
 
@@ -4875,61 +8618,33 @@ a:hover{
     
 }
 
-.postbox{
-    width: 70vw !important;
-    min-height: 30vh !important;
-    max-height: 60vh !important;
-    border: solid red !important;
-    border-radius: 0.5rem !important;
-    overflow-y: scroll !important;
-    -ms-overflow-style: none !important;  /* IE and Edge */
-    scrollbar-width: none !important;  
-    border-width: 0.1rem !important ;
-    
-}
+
 
 .postbox2{
     width: 70vw !important;
     height: 6vh !important;
-    border: solid red !important;
+    border: solid #8200ff !important;
     border-radius: 0.3rem !important;
     border-width: 0.1rem !important ;
+    background-color: #8200ff;
+    color: white !important;
    
     
 }
-.postbox::-webkit-scrollbar {
-    display: none;
-  }
 
 
-.postpagecoms2{
-    width: 70vw !important;
-    height: 12vh !important;
-    border: solid red !important;
-    border-radius: 0.3rem !important;
-    border-width: 0.1rem !important ;
-    border-width: 0.1rem !important ;
-}
 
 .txtar{
     width:90% !important;
     resize: none !important;
 }
 
-.postbox3{
-    width: 70vw !important;
-    min-height: 30vh !important;
-    border: solid red !important;
-    border-radius: 0.3rem !important;
-    border-width: 0.1rem !important ;
-    
-    
-}
 
 .bodbot{
     padding-bottom: 1rem !important;
-    border-bottom-color: #ff3a3a;
+    border-bottom-color: #8200ff;
     border-bottom-style: solid;
+    font-family: 'Lugrasimo', cursive;
     
 }
 
@@ -4946,4 +8661,102 @@ a:hover{
 
 .postbold{
     font-weight: 700;
+    color: #8200ff;
+    cursor: pointer;
+}
+
+.linc2{
+   
+    text-decoration: none !important;
+    color : rgb(0, 0, 0) !important;
+}
+
+.colwid{
+    width: 30vw !important;
+}
+
+.layoutside{
+    width: 100vw !important;
+    min-height: 100vh !important;
+    
+}
+
+
+.topicpage{
+    width:100vw !important;
+    min-height : 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+
+.notifmb{
+    width : 100vw !important;
+    min-height : 100vh !important;
+    
+}
+
+
+
+.doublenav{
+    display: none !important;
+}
+
+.linkdec3{
+    text-decoration: none !important;
+    color: #ffffff !important;
+    
+}
+
+.colper{
+   color: #8200ff;
+}
+
+.compst{
+    color: white ;
+    background-color: #8200ff;
+    border: none;
+    font-family: 'Lugrasimo', cursive;
+
+}
+
+.compst:hover{
+    background-color: #92fffd ;
+
+}
+.notbtnds{
+    background-color: #8200ff;
+    color: #ffffff;
+    border: none;
+    font-family: 'Lugrasimo', cursive;
+}
+.notbtnds:hover{
+    background-color: #8200ff;
+    color: #ffffff;
+    border: none;
+    font-family: 'Lugrasimo', cursive;
+}
+
+.firstlayr{
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+}
+.firstb{
+    width:100% !important;
+    height : 100% !important;
+    object-fit: cover !important;
+}
+
+.postfnt{
+    font-family: 'Kalam', cursive;
+}
+
+.undrln{
+    text-decoration: underline;
+    text-decoration-color: #8200ff;
+    text-underline-offset: 1rem;
 }

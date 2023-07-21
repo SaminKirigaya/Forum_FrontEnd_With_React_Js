@@ -15,7 +15,9 @@ export class Login extends Component {
         this.state = {
             email : '',
             pass : '',
-            resdata : ''
+            resdata : '',
+            opacity: 0,
+            isInitialMount: true
         }
     }
 
@@ -68,6 +70,19 @@ export class Login extends Component {
         }
     }
 
+    startOpacityChange() {
+        // Set isInitialMount to false when the opacity change starts
+        this.setState({ opacity: 0, isInitialMount: false });
+    
+        const intervalId = setInterval(() => {
+          this.setState((prevState) => ({
+            opacity: Math.min(prevState.opacity + 0.065, 1),
+          }));
+        }, 100);
+    
+        setTimeout(() => clearInterval(intervalId), 1400); // Adjust the duration as needed
+      }
+
     formsubmited= (e) => {
         e.preventDefault();
         const headval = {
@@ -91,12 +106,26 @@ export class Login extends Component {
         });
 
     }
+    async componentDidMount(){
+        this.startOpacityChange();
+    }
+    componentDidUpdate(prevProps, prevState) {
+        // Check if componentId prop has changed and it's not the initial mount
+        if (prevProps.componentId !== this.props.componentId && !this.state.isInitialMount) {
+          this.startOpacityChange();
+        }
 
+        if (this.state.isInitialMount) {
+            
+            this.setState({ isInitialMount: false });
+          }
+      }
 
     render() {
+        const { opacity } = this.state;
         return (
             <Fragment>
-                <div className="container-fluid bg-red regform">
+                <div className="container-fluid bg-red regform" style={{opacity}}>
                     
                 
                     <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
@@ -110,8 +139,8 @@ export class Login extends Component {
                                 <div className='col col-md-10 mb-2'><input onChange={(e)=>{this.setState({pass : e.target.value})}} className="form-control form-control-sm" type="text" placeholder="Password" aria-label=".form-control-sm example" /></div>
 
 
-                                <div className="col-3 d-flex justify-content-center mb-2"><button type="submit" className="btn btn-sm btn-outline-primary btnsubdes">Login</button></div>
-                                <div className='col col-md-10 mb-2 d-flex justify-content-center'>Forgot Password ? Please &nbsp; <Link to="/forgottotally">Click Here</Link></div>
+                                <div className="col col-md-3 d-flex justify-content-center mb-2"><button type="submit" className="btn btn-sm btn-outline-primary btnsubdes">Login</button></div>
+                                <div className='col col-md-10 mb-2 d-flex justify-content-center forgtpass flex-column flex-md-row'>Forgot Password ? Please &nbsp; <Link to="/forgottotally">Click Here</Link></div>
                             </div>
                         </form>
                         

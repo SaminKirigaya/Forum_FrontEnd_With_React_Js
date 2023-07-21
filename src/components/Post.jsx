@@ -11,10 +11,35 @@ export class Post extends Component {
             prob_type : '',
             post : '',
             resdata : '',
-            redirct : 'No'
+            redirct : 'No',
+            opacity: 0,
+            isInitialMount: true
         }
     }
     
+    componentDidUpdate(prevProps, prevState) {
+        // Check if componentId prop has changed and it's not the initial mount
+        if (prevProps.componentId !== this.props.componentId && !this.state.isInitialMount) {
+          this.startOpacityChange();
+        }
+
+        if (this.state.isInitialMount) {
+            
+            this.setState({ isInitialMount: false });
+          }
+      }
+    startOpacityChange() {
+        // Set isInitialMount to false when the opacity change starts
+        this.setState({ opacity: 0, isInitialMount: false });
+    
+        const intervalId = setInterval(() => {
+          this.setState((prevState) => ({
+            opacity: Math.min(prevState.opacity + 0.065, 1),
+          }));
+        }, 100);
+    
+        setTimeout(() => clearInterval(intervalId), 1400); // Adjust the duration as needed
+      }
     showtype=()=>{
         return  this.state.posts.map((post) => {
             return <option key={post.slno} value={post.code_type}>{post.code_type}</option>
@@ -24,10 +49,20 @@ export class Post extends Component {
 
     aftersubmit=()=>{
         if(this.state.resdata){
-            return  <p className="redtxt">{this.state.resdata}</p>
+            return  <div class="alert alert-primary d-flex align-items-center alboxpos" role="alert">
+            
+            <div>
+              {this.state.resdata}
+            </div>
+          </div>
             
         }else{
-            return  <p className="redtxt">Make Sure To Fill Every Form Fields. And Also Try To Respect Others.</p>
+            return  <div class="alert alert-primary d-flex align-items-center alboxpos" role="alert">
+            
+            <div>
+              Make Sure To Fill All Form Field... And Try To Be Respectful To Other In Your Post.
+            </div>
+          </div>
         }
     }
 
@@ -51,7 +86,7 @@ export class Post extends Component {
         }).then(
             response =>{
                 if(response.status===200){
-                    console.log(response.data)
+                    
                     this.setState({resdata : response.data.message});
 
                     if(response.data.message == 'Successful'){
@@ -88,20 +123,21 @@ export class Post extends Component {
             }).catch(error=>{console.log(error);});
             
             
-
+            this.startOpacityChange();
             
 
         
     }
 
   render() {
+    const { opacity } = this.state;
         return (
             <Fragment>
                 
-                <form className="container-fluid vw-100 vh-15 m-0 p-0 postfl flex-column" onSubmit={e=>{this.postsubmit(e)}}>
+                <form className="container-fluid vw-100 vh-15 m-0 p-0 postfl flex-column" onSubmit={e=>{this.postsubmit(e)}} style={{opacity}}>
                     <div className="imgboxt d-flex justify-content-center mb-3 mb-md-0">
                         <div className="row row-cols-1 row-cols-md-10 d-flex justify-content-center">
-                            <div className="col col-md-12">{this.aftersubmit()}</div>
+                            {this.aftersubmit()}
                         </div>
                         
                     </div>
@@ -111,7 +147,7 @@ export class Post extends Component {
                         {this.showtype()}
                     </select>
                     <textarea id="fullt" placeholder='Detailed Problem' className="postfld me-2 mb-3" onChange={(e)=>{this.setState({post : e.target.value})}}></textarea>
-                    <button type="submit" className="btn btn-primary btn-sm btncol">POST</button>
+                    <button type="submit" className="btn btn-primary btn-sm btncol bigdispost">POST</button>
                         
                     
                 </form>

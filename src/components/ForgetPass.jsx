@@ -9,7 +9,9 @@ export class ForgetPass extends Component {
             pass : '',
             conpass : '',
             resdata : '',
-            redrct : 'No'
+            redrct : 'No',
+            opacity: 0,
+            isInitialMount: true
         }
     }
 
@@ -26,6 +28,18 @@ export class ForgetPass extends Component {
             return  <Redirect to="/" />
         }
     }
+    startOpacityChange() {
+        // Set isInitialMount to false when the opacity change starts
+        this.setState({ opacity: 0, isInitialMount: false });
+    
+        const intervalId = setInterval(() => {
+          this.setState((prevState) => ({
+            opacity: Math.min(prevState.opacity + 0.065, 1),
+          }));
+        }, 100);
+    
+        setTimeout(() => clearInterval(intervalId), 1400); // Adjust the duration as needed
+      }
 
     formsubmited=(e)=>{
         e.preventDefault();
@@ -57,11 +71,27 @@ export class ForgetPass extends Component {
             console.log(error)
         })
     }
+
+    async componentDidMount(){
+        this.startOpacityChange();
+    }
+    componentDidUpdate(prevProps, prevState) {
+        // Check if componentId prop has changed and it's not the initial mount
+        if (prevProps.componentId !== this.props.componentId && !this.state.isInitialMount) {
+          this.startOpacityChange();
+        }
+
+        if (this.state.isInitialMount) {
+            
+            this.setState({ isInitialMount: false });
+          }
+      }
     render() {
+        const { opacity } = this.state;
         return (
             <Fragment>
-                <div className="container-fluid d-flex justify-content-center">
-                    <div className="forgtpass">
+                <div className="container-fluid d-flex justify-content-center" style={{opacity}}>
+                    <div className="forgtpass3">
                         <form onSubmit={e=>{this.formsubmited(e)}}>
                             <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
                                 <div className="col col-md-10 p-3 mb-5 rulebox d-flex justify-content-center flex-row">

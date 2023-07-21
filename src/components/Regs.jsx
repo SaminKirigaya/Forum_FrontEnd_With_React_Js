@@ -17,7 +17,9 @@ export class Regs extends Component {
             ages : 0,
             genders : '',
             images : null,
-            resdata : null
+            resdata : null,
+            opacity: 0,
+            isInitialMount: true
 
         }
         
@@ -41,6 +43,19 @@ export class Regs extends Component {
         document.getElementById("gender").value = '';
         document.getElementById("formFileSm").value = '';
     }
+
+    startOpacityChange() {
+        // Set isInitialMount to false when the opacity change starts
+        this.setState({ opacity: 0, isInitialMount: false });
+    
+        const intervalId = setInterval(() => {
+          this.setState((prevState) => ({
+            opacity: Math.min(prevState.opacity + 0.065, 1),
+          }));
+        }, 100);
+    
+        setTimeout(() => clearInterval(intervalId), 1400); // Adjust the duration as needed
+      }
     respdatafunc= ()=>{
         if(this.state.resdata){
             if(this.state.resdata == "Registration Successful Please Login With Your Credential For First Time."){
@@ -93,6 +108,21 @@ export class Regs extends Component {
         }
     }
 
+    async componentDidMount(){
+        this.startOpacityChange();
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        // Check if componentId prop has changed and it's not the initial mount
+        if (prevProps.componentId !== this.props.componentId && !this.state.isInitialMount) {
+          this.startOpacityChange();
+        }
+
+        if (this.state.isInitialMount) {
+            
+            this.setState({ isInitialMount: false });
+          }
+      }
     formsubmited = (e)=>{
         e.preventDefault();
         
@@ -117,7 +147,7 @@ export class Regs extends Component {
         axios.post('/regs', formData, details)
         .then(response => {
             // Handle the response data
-            console.log(response.data);
+            
             this.setState({resdata : response.data.message})
         })
         .catch(error => {
@@ -130,9 +160,10 @@ export class Regs extends Component {
     }
     
     render() {
+        const { opacity } = this.state;
         return (
             <Fragment>
-                <div className="container-fluid bg-red regform">
+                <div className="container-fluid bg-red regform" style={{opacity}}>
                     
                 
                     <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
@@ -147,13 +178,13 @@ export class Regs extends Component {
                                 <div className='col col-md-5 mb-2'><input id="cpass" onChange={(e)=>{this.setState({cpass : e.target.value})}} className="form-control form-control-sm" type="text" placeholder="Confirm Password" aria-label=".form-control-sm example" /></div>
                                 <div className='col col-md-5 mb-2'><input id="country" onChange={(e)=>{this.setState({countrys : e.target.value})}} className="form-control form-control-sm" type="text" placeholder="Country" aria-label=".form-control-sm example" /></div>
                                 <div className='col col-md-5 mb-2'><input id="age" onChange={(e)=>{this.setState({ages : e.target.value})}} className="form-control form-control-sm" type="text" placeholder="Age" aria-label=".form-control-sm example" /></div>
-                                <div className='col col-md-5 mb-2'><select id="gender" onChange={(e)=>{this.setState({genders : e.target.value})}} className="form-select" aria-label="select example">
+                                <div className='col col-md-5 mb-2'><select id="gender" onChange={(e)=>{this.setState({genders : e.target.value})}} className="form-select regender" aria-label="select example">
                                 <option selected disabled>Gender</option>
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
                                 <option value="Others">others</option>
                                 </select></div>
-                                <div className='col col-md-5 mb-2'><input onChange={(e)=>{this.setState({images : e.target.files[0]})}} className="form-control form-control-sm" id="formFileSm" placeholder='Profile Image' type="file" /></div>
+                                <div className='col col-md-5 mb-2'><input onChange={(e)=>{this.setState({images : e.target.files[0]})}} className="form-control form-control-sm regender" id="formFileSm" placeholder='Profile Image' type="file" /></div>
                                 <div className="col-3 d-flex justify-content-center"><button type="submit" className="btn btn-sm btn-outline-primary btnsubdes">Submit</button></div>
                             </div>
                         </form>

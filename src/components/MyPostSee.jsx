@@ -1,6 +1,6 @@
 
 import React, { Component,Fragment } from 'react'
-import { Link, Redirect, useParams } from 'react-router-dom'
+import { Link, Redirect, useParams, withRouter } from 'react-router-dom'
 import axios from 'axios'
 
 
@@ -18,7 +18,12 @@ export class MyPostSee extends Component {
             hascomment : false,
             liked : '',
             disliked : '',
-            aftercomredirct : ''
+            aftercomredirct : '',
+            admincomdelete : '',
+            delsuccess : false,
+            commentsucs : false,
+            opacity: 0,
+            isInitialMount: true
         }
     }
 
@@ -121,7 +126,7 @@ export class MyPostSee extends Component {
                     })
                 }
             }
-            console.log(response.data)
+           
             {/*if(response.status === 200){
                 if(response.data.message == 'Success'){
                     if(this.state.liked == '' && this.state.disliked == ''){
@@ -176,6 +181,47 @@ export class MyPostSee extends Component {
         
     }
 
+    admindel = (e, comno)=>{
+        const {postno} = this.props.match.params;
+        axios.get(`/admindeletecoms/${this.props.sln}/${postno}/${comno}`).then(response=>{
+            if(response.status === 200){
+                if(response.data.message == 'Comment Deleted.'){
+                    this.setState({
+                        admincomdelete : response.data.message,
+                        delsuccess : true
+                    },()=>{
+                        this.componentDidMount()
+                    })
+
+                    setTimeout(()=>{this.setState({delsuccess : false})},1500)
+                }
+            }
+        }).catch(error=>{
+            console.log(error)
+        })
+    }
+    commentsucceded = ()=>{
+        if(this.state.commentsucs== true){
+            return  <div class="alert alert-primary d-flex align-items-center alboxpos" role="alert">
+            
+            <div>
+              Successfully Commented.
+            </div>
+          </div>
+        }
+    }
+
+    commentdeleted = ()=>{
+        if(this.state.delsuccess== true){
+            return  <div class="alert alert-primary d-flex align-items-center alboxpos" role="alert">
+            
+            <div>
+              Successfully Removed The Comment.
+            </div>
+          </div>
+        }
+    }
+
     submitcom=(e)=>{
         e.preventDefault();
         const formdata = new FormData();
@@ -190,10 +236,16 @@ export class MyPostSee extends Component {
                 if(response.data.message == 'Comment Successful'){
                     this.setState({
                         posts : response.data.update_post,
-                        comments : response.data.comments
+                        comments : response.data.comments,
+                        commentsucs : true
                     })
                     this.setState({writecoms : ''})
                     document.getElementById("coms").value =  '';
+
+                    setTimeout(()=>{this.setState({
+                        
+                        commentsucs : false
+                    })},1500)
                 }
                 
             }
@@ -201,6 +253,18 @@ export class MyPostSee extends Component {
             console.log(error)
         })
     }
+    startOpacityChange() {
+        // Set isInitialMount to false when the opacity change starts
+        this.setState({ opacity: 0, isInitialMount: false });
+    
+        const intervalId = setInterval(() => {
+          this.setState((prevState) => ({
+            opacity: Math.min(prevState.opacity + 0.065, 1),
+          }));
+        }, 100);
+    
+        setTimeout(() => clearInterval(intervalId), 1400); // Adjust the duration as needed
+      }
 
     showcoms = ()=>{
         console.log('start')
@@ -209,20 +273,23 @@ export class MyPostSee extends Component {
             return  this.state.comments.map((eachone)=>{
                 return  <div className='postbox3 mt-5 p-4 mx-auto' key={eachone.slno}>
                 <div className='row bodbot p-2'>   
-                    <div className='col d-flex justify-content-start flex-column flex-md-row text-break'><div className='imgbox me-3'><img className='imgfit' src={eachone.image}></img></div><span><span className="postbold">{eachone.author}</span><br></br>posted at : {eachone.creating_time}</span> </div>
+                    <div className='col d-flex justify-content-start flex-column flex-md-row text-break'><div className='imgbox me-3'><img className='imgfit' src={eachone.image}></img></div><span><span onClick={(e)=>{this.goseeother(e,eachone.author)}} className="postbold">{eachone.author}</span><br></br>posted at : {eachone.creating_time}</span> </div>
                 </div>
                 <div className='row mt-3 p-2'>
                     <div className='col d-flex justify-content-start flex-column flex-md-row text-break'>
-                        <p>{eachone.comment}</p>
+                        <p className='postfnt'>{eachone.comment}</p>
                     </div>
                 </div>
-                <div className='row bodtop p-2'>   
-                    <div className='col d-flex justify-content-center flex-row flex-md-row text-break'>
-                        <div className='row rowwid d-flex justify-content-center flex-row'>
-                            <div onClick={(e)=>{this.lovecom(e,eachone.slno)}} className='col col-md-6 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart fa-lg"></i>&nbsp;{eachone.like_amount>100000 ? Math.floor(eachone.like_amount/100000) +'M': eachone.like_amount>1000 ? Math.floor(eachone.like_amount/1000) +'K' : eachone.like_amount}</div>
-                            <div onClick={(e)=>{this.dislovecom(e,eachone.slno)}} className='col col-md-6 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart-crack fa-lg"></i>&nbsp;{eachone.dislike_amount>100000 ? Math.floor(eachone.dislike_amount/100000) +'M': eachone.dislike_amount>1000 ? Math.floor(eachone.dislike_amount/1000) +'K' : eachone.dislike_amount}</div></div>
+                <div className='row bodtop p-2 justify-content-center'>   
+                
+                   
+                        <div onClick={(e)=>{this.lovecom(e,eachone.slno)}} className='col-3 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart fa-lg colper"></i> &nbsp;{eachone.like_amount>100000 ? Math.floor(eachone.like_amount/100000) +'M': eachone.like_amount>1000 ? Math.floor(eachone.like_amount/1000) +'K' : eachone.like_amount}</div>
+                        <div onClick={(e)=>{this.dislovecom(e,eachone.slno)}} className='col-4 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart-crack fa-lg colper"></i>&nbsp; {eachone.dislike_amount>100000 ? Math.floor(eachone.dislike_amount/100000) +'M': eachone.dislike_amount>1000 ? Math.floor(eachone.dislike_amount/1000) +'K' : eachone.dislike_amount}</div>
                         
-                    </div>
+                        
+                        <div onClick={(e)=>{this.admindel(e,eachone.slno)}} className='col-3 d-flex justify-content-center align-items-center'><i class="fa-solid fa-trash colper"></i>&nbsp; </div>
+                    
+                
                 </div>
 
                 
@@ -233,30 +300,39 @@ export class MyPostSee extends Component {
             if(this.state.comments.slno>0){
             return  <div className='postbox3 mt-5 p-4 mx-auto'>
             <div className='row bodbot p-2'>   
-                <div className='col d-flex justify-content-start flex-column flex-md-row text-break'><div className='imgbox me-3'><img className='imgfit' src={this.state.comments.image}></img></div><span><span className='postbold'>{this.state.comments.author}</span><br/>posted at : {this.state.comments.creating_time}</span></div>
+                <div className='col d-flex justify-content-start flex-column flex-md-row text-break'><div className='imgbox me-3'><img className='imgfit' src={this.state.comments.image}></img></div><span><span onClick={(e)=>{this.goseeother(e,this.state.comments.author)}} className='postbold'>{this.state.comments.author}</span><br/>posted at : {this.state.comments.creating_time}</span></div>
             </div>
             <div className='row mt-3 p-2'>
                 <div className='col d-flex justify-content-start flex-column flex-md-row text-break'>
-                    <p>{this.state.comments.comment}</p>
+                    <p className='postfnt'>{this.state.comments.comment}</p>
                 </div>
             </div>
-            <div className='row bodtop p-2'>   
-                <div className='col d-flex justify-content-center flex-row flex-md-row text-break'>
-                    <div className='row rowwid d-flex justify-content-center flex-row'>
-                        <div onClick={(e)=>{this.lovecom(e,this.state.comments.slno)}} className='col col-md-6 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart fa-lg"></i> &nbsp;{this.state.comments.like_amount>100000 ? Math.floor(this.state.comments.like_amount/100000) +'M': this.state.comments.like_amount>1000 ? Math.floor(this.state.comments.like_amount/1000) +'K' : this.state.comments.like_amount}</div>
-                        <div onClick={(e)=>{this.dislovecom(e,this.state.comments.slno)}} className='col col-md-6 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart-crack fa-lg"></i>&nbsp; {this.state.comments.dislike_amount>100000 ? Math.floor(this.state.comments.dislike_amount/100000) +'M': this.state.comments.dislike_amount>1000 ? Math.floor(this.state.comments.dislike_amount/1000) +'K' : this.state.comments.dislike_amount}</div></div>
+            
+            <div className='row bodtop p-2 justify-content-center'>   
+                
+                   
+                        <div onClick={(e)=>{this.lovecom(e,this.state.comments.slno)}} className='col-3 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart fa-lg colper"></i> &nbsp;{this.state.comments.like_amount>100000 ? Math.floor(this.state.comments.like_amount/100000) +'M': this.state.comments.like_amount>1000 ? Math.floor(this.state.comments.like_amount/1000) +'K' : this.state.comments.like_amount}</div>
+                        <div onClick={(e)=>{this.dislovecom(e,this.state.comments.slno)}} className='col-4 d-flex justify-content-center align-items-center'><i className="fa-solid fa-heart-crack fa-lg colper"></i>&nbsp; {this.state.comments.dislike_amount>100000 ? Math.floor(this.state.comments.dislike_amount/100000) +'M': this.state.comments.dislike_amount>1000 ? Math.floor(this.state.comments.dislike_amount/1000) +'K' : this.state.comments.dislike_amount}</div>
+                        
+                        
+                        <div onClick={(e)=>{this.admindel(e,this.state.comments.slno)}} className='col-3 d-flex justify-content-center align-items-center'><i class="fa-solid fa-trash colper"></i>&nbsp; </div>
                     
-                </div>
+                
             </div>
-
             
             
         </div>
             }else{
-                return  <p className='mx-auto'>Sorry No Comment Yet... Be The First To Solve The Issue !!!</p>
+                return  <p className='mx-auto postcom'>Sorry No Comment Yet... Be The First To Solve The Issue !!!</p>
             }
         }
     }
+
+    goseeother = ( e, usermail)=>{
+        e.preventDefault();
+        this.props.history.push('/seeother/'+ usermail);
+    }
+
     async componentDidMount(){
         if(!this.props.sln){
 
@@ -265,6 +341,8 @@ export class MyPostSee extends Component {
         const {postno} = this.props.match.params;
         
         try{
+
+            
             const response = await axios.get(`/solve/${this.props.sln}/${postno}`,{
                 headers : {
                     'Content-Type' : 'application/json'
@@ -279,24 +357,38 @@ export class MyPostSee extends Component {
                        
                     })
 
-                    console.log(response.data.comments.length);
+                    
 
-                    console.log(this.state.posts,this.state.comments.length)
+                   
                 }
             }
     
+            this.startOpacityChange();
+
         }catch(error){
             console.log(error)
         }
         
     }
+    componentDidUpdate(prevProps, prevState) {
+        // Check if componentId prop has changed and it's not the initial mount
+        if (prevProps.componentId !== this.props.componentId && !this.state.isInitialMount) {
+          this.startOpacityChange();
+        }
+
+        if (this.state.isInitialMount) {
+            
+            this.setState({ isInitialMount: false });
+          }
+      }
+
     render() {
         
-        
+        const { opacity } = this.state;
         return (
             <Fragment>
                 
-                <div className='container-fluid mostOutlayer'>
+                <div className='container-fluid mostOutlayer' style={{opacity}}>
                     
                     <div className='postbox mt-5 p-4 mx-auto'>
                         <div className='row bodbot p-2'>   
@@ -304,29 +396,29 @@ export class MyPostSee extends Component {
                         </div>
                         <div className='row mt-3 p-2'>
                             <div className='col d-flex justify-content-start flex-column flex-md-row text-break'>
-                            <p><span className='postbold'>{this.state.posts.intro}</span><br></br>{this.state.posts.user_post}</p>
+                            <p className="postfnt"><span className='postbold'>{this.state.posts.intro}</span><br></br>{this.state.posts.user_post}</p>
                             
                             </div>
                         </div>
                     </div>
                     <div className='reactbox postbox2 mt-2 mx-auto likepad'>
                         <div className='row row-cols-12 d-flex flex-row justify-content-center align-items-bottom'>
-                            <div className='col-4 d-flex justify-content-center align-items-center'> <p><i className="fa-solid fa-thumbs-up"></i>&nbsp;{this.state.posts.like_amount>100000 ? Math.floor(this.state.posts.like_amount/100000) +'M': this.state.posts.like_amount>1000 ? Math.floor(this.state.posts.like_amount/1000) +'K' : this.state.posts.like_amount}</p></div>
-                            <div className='col-3 d-flex justify-content-center align-items-center'><p><i className="fa-solid fa-thumbs-down"></i> {this.state.posts.dislike_amount>100000 ? Math.floor(this.state.posts.dislike_amount/100000) +'M': this.state.posts.dislike_amount>1000 ? Math.floor(this.state.posts.dislike_amount/1000) +'K' : this.state.posts.dislike_amount}</p></div>
-                            <div className='col-3 d-flex justify-content-center align-items-center'><p><i class="fa-solid fa-pen-to-square"></i></p></div>
+                            <div className='col-4 d-flex justify-content-center align-items-center'> <p><i className="fa-solid fa-thumbs-up bigi"></i>&nbsp;{this.state.posts.like_amount>100000 ? Math.floor(this.state.posts.like_amount/100000) +'M': this.state.posts.like_amount>1000 ? Math.floor(this.state.posts.like_amount/1000) +'K' : this.state.posts.like_amount}</p></div>
+                            <div className='col-3 d-flex justify-content-center align-items-center'><p><i className="fa-solid fa-thumbs-down bigi"></i> {this.state.posts.dislike_amount>100000 ? Math.floor(this.state.posts.dislike_amount/100000) +'M': this.state.posts.dislike_amount>1000 ? Math.floor(this.state.posts.dislike_amount/1000) +'K' : this.state.posts.dislike_amount}</p></div>
+                            <div className='col-3 d-flex justify-content-center align-items-center'><Link className='linc2' to={'/posteditmain/'+this.state.posts.slno}><p><i className="fa-solid fa-pen-to-square bigi linkdec3"></i></p></Link></div>
                         </div>
                     </div>
                     <div className='reactbox postpagecoms mt-2 mx-auto d-flex justify-content-center'>
                         <div className='row flex-column'>
                             <div className='col d-flex justify-content-center'><textarea id="coms" onChange={(e)=>{this.setState({writecoms : e.target.value})}} className='reactbox postpagecoms2 d-flex justify-content-center' placeholder='Please Be Respectful In Comment & Try To Make It As Short And Specific As Possible.'></textarea></div>
-                            <div onClick={(e)=>{this.submitcom(e)}} className='col d-flex justify-content-center align-items-center mt-2'><button type="button" class="btn btn-sm btn-warning">Comment</button></div>
+                            <div onClick={(e)=>{this.submitcom(e)}} className='col d-flex justify-content-center align-items-center mt-2'><button type="button" className="btn btn-sm btn-warning comsub compst">Comment</button></div>
                         </div>
                             
                     </div>
 
                     <div className='reactbox postpagecoms mt-2 mx-auto d-flex justify-content-center'>
                         <div className='row d-flex justify-content-center'>
-                            <div className='col'>Posts Comments ...</div>
+                            <div className='col postcom'>Posts Comments ...</div>
                         </div>
                     </div>
 
@@ -338,10 +430,11 @@ export class MyPostSee extends Component {
                     
 
                 </div>
-                
+                {this.commentsucceded()}
+                {this.commentdeleted()}
             </Fragment>
         )
     }
 }
 
-export default MyPostSee
+export default withRouter(MyPostSee)

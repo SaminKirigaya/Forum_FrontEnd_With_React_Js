@@ -15,7 +15,9 @@ export class Logout extends Component {
         super(props);
         this.state = {
             serno : '',
-            resdata : ''
+            resdata : '',
+            opacity: 0,
+            isInitialMount: true
         }
         
     }
@@ -23,8 +25,20 @@ export class Logout extends Component {
         if(!this.props.serial){
             window.location.href = "/";
         }
+        this.startOpacityChange();
         this.setState({serno : localStorage.getItem('serial')});
     }
+    componentDidUpdate(prevProps, prevState) {
+        // Check if componentId prop has changed and it's not the initial mount
+        if (prevProps.componentId !== this.props.componentId && !this.state.isInitialMount) {
+          this.startOpacityChange();
+        }
+
+        if (this.state.isInitialMount) {
+            
+            this.setState({ isInitialMount: false });
+          }
+      }
 
     logouttext = ()=>{
         if(this.state.resdata == ''){
@@ -53,6 +67,18 @@ export class Logout extends Component {
         window.location.href = "/";
         
     }
+    startOpacityChange() {
+        // Set isInitialMount to false when the opacity change starts
+        this.setState({ opacity: 0, isInitialMount: false });
+    
+        const intervalId = setInterval(() => {
+          this.setState((prevState) => ({
+            opacity: Math.min(prevState.opacity + 0.065, 1),
+          }));
+        }, 100);
+    
+        setTimeout(() => clearInterval(intervalId), 1400); // Adjust the duration as needed
+      }
 
     leslogout=()=>{
         
@@ -105,9 +131,10 @@ export class Logout extends Component {
         
     }
     render() {
+        const { opacity } = this.state;
         return (
             <Fragment>
-                <div className="container-fluid bg-red regform">
+                <div className="container-fluid bg-red regform" style={{opacity}}>
                         
                     
                     <div className='row row-cols-1 d-flex justify-content-center'>
