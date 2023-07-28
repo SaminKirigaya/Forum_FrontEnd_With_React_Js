@@ -3,7 +3,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 201.8vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -588,7 +588,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 201.8vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -1171,7 +1171,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 201.3vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -1756,7 +1756,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 201.4vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -2341,7 +2341,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 201.8vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -2906,7 +2906,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 202.8vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -4022,7 +4022,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 202.5vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -4035,7 +4035,7 @@
         display: flex !important;
         justify-content: center;
         position : absolute !important;
-        top: 203vh !important;
+        top: 202vh !important;
         right: 0vw !important;
         width : 100vw !important;
         height: 6vh !important;
@@ -8759,4 +8759,22 @@ a:hover{
     text-decoration: underline;
     text-decoration-color: #8200ff;
     text-underline-offset: 1rem;
+}
+
+/*---------------------------------------------------------*/
+.graph{
+    width: 100vw !important;
+    min-height: 100vh !important;
+    background-color: #00b8ff; 
+    background-image: url('./images//secondgraph.jpg');
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover;
+
+}
+.wid{
+    min-width: 45vw !important;
+    max-width: 75vw !important;
+    min-height : 30vh !important;
+    max-height: 40vh !important;
 }
