@@ -9,7 +9,9 @@ import axios from 'axios'
 import Pagination from 'react-js-pagination';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import firstb from '../assests/images/firstb.jpg'
-
+import ChartComponent from './ChartComponent';
+import { Bar } from 'react-chartjs-2';
+import CircularChartComponent from './CircularChartComponent';
 
 
 export class Home extends Component {
@@ -291,6 +293,16 @@ export class Home extends Component {
                     </div>
                 </div>
                 
+                <div className='container-fluid graph d-flex justify-content-center align-items-center'>
+                    <div className='row row-cols-1 row-cols-md-12 d-flex justify-content-center'>
+                        <div className='col col-md-6 d-flex justify-content-center align-items-center wid'>
+                            <ChartComponent />
+                        </div>
+                        <div className='col col-md-6 d-flex justify-content-center align-items-center wid'>
+                            <CircularChartComponent />
+                        </div>
+                    </div>
+                </div>
                 
             </Fragment>
         )
