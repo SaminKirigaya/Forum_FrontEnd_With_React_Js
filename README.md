@@ -62,7 +62,7 @@ The back end is delivered from laravel in this case.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/SaminKirigaya/Forum_FrontEnd_With_React_Js__LARAVEL-OPTIMIZED-.git
 ```
 
 Go to the project directory
