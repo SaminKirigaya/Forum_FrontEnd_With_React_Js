@@ -17,6 +17,12 @@ The back end is delivered from laravel in this case.
 - Deleting Comments and Posts 
 - Image Converting in Database
 
+## Cautions
+- Inside Index.js file you will find two line code ->
+- axios.defaults.baseURL and headers authorizaion to hand rest api link ...
+- My backend was in localhost:3000 so i used that you need to change considering your port and url ...
+  
+
 ## Demo of Web Server Design 
 
 ![Forum - Google Chrome 7_29_2023 8_14_24 AM](https://github.com/SaminKirigaya/Forum_FrontEnd_With_React_Js__LARAVEL-OPTIMIZED-/assets/104618775/61b8eafb-b5b1-4209-af06-95d7527d61c7)
