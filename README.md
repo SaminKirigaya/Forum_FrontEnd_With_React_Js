@@ -21,6 +21,15 @@ The back end is delivered from laravel in this case.
 - Inside Index.js file you will find two line code ->
 - axios.defaults.baseURL and headers authorizaion to hand rest api link ...
 - My backend was in localhost:3000 so i used that you need to change considering your port and url ...
+- Also another thing is our all time focus was authorization authentication... And features of forum . So, some small change was not added like converting Datetime to 2digit format using to.localeString("en-US",{
+  year : "numeric",
+  month: "2-digit",
+  day : "2-digit",
+  hour: "2-digit",
+  minute : "2-digit",
+  hour12: true
+  })
+  - I might add this and other new features upcoming day if you request and inspire me ....
   
 
 ## Demo of Web Server Design 
